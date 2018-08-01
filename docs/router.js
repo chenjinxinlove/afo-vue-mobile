@@ -1,25 +1,48 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from './views/Home.vue'
+import componentDocs from './config/doc-entry'
+import componentExamples from './config/example-entry'
+import ExamplePages from './components/ExamplePages'
+import RouterConfig from './config/router.config'
 
-Vue.use(Router)
+const mergeRoute = (isDemo) => {
+  const route = [{
+    path: '*',
+    redirect: to => '/'
+  }]
+  const navs = RouterConfig.nav || []
 
-export default new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Home
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+  navs.forEach(nav => {
+    if (nav.childrens) {
+      nav.childrens.forEach(children => {
+        children.list.forEach(page => addRoute(page))
+      })
     }
-  ]
-})
+  })
+  function addRoute (page, lang) {
+    let { path } = page
+    if (path) {
+      let component
+      if (path === 'demo') {
+        component = ExamplePages
+      } else {
+        component = isDemo ? componentExamples[path] : componentDocs[path]
+      }
+
+      if (!component) {
+        return
+      }
+
+      route.push({
+        name: '/' + path,
+        component,
+        path: `/${lang}/${path}`,
+        meta: {
+          path,
+          name: page.title
+        }
+      })
+    }
+  }
+  return route
+}
+
+export default mergeRoute

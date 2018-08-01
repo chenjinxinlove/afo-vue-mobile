@@ -1,31 +1,68 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div class="app">
+    dddd
+    <van-doc :simulators="simulators" :current-simulator="currentSimulator" :config="config">
+      <router-view @changeDemoURL="onChangeDemoURL" />
+    </van-doc>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+<script>
+import docConfig from './config/router.config'
+
+export default {
+  data () {
+    return {
+      simulators: [`mobile.html${location.hash}`],
+      demoURL: ''
+    }
+  },
+
+  computed: {
+    config () {
+      return docConfig
+    },
+
+    currentSimulator () {
+      const { name } = this.$route
+      return name && name.indexOf('demo') !== -1 ? 1 : 0
+    }
+  },
+
+  methods: {
+    onChangeDemoURL (url) {
+      this.simulators = [this.simulators[0], url]
+    }
+  }
+}
+</script>
+
+<style lang="postcss">
+.van-doc-intro {
   text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
+  font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  &__youzan {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 25px 0 0;
+  }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+  &__logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: normal;
+  }
+
+  p {
+    font-size: 15px;
+    color: #455a64;
+  }
 }
 </style>
