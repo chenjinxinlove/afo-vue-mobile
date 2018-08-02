@@ -1,5 +1,5 @@
 /* eslint-disable */
-const version = require('../../package.json').version;
+const version = require('../package.json').version;
 
 module.exports = {
   header: {
@@ -21,8 +21,8 @@ module.exports = {
           childrensName: '基础组件',
           list: [
               {
-                path: '/col',
-                title: 'Layout - 布局'
+                path: 'button',
+                title: 'button - 按钮'
               },
           ]
         }

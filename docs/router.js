@@ -3,7 +3,7 @@ import componentExamples from './config/example-entry'
 import ExamplePages from './components/ExamplePages'
 import RouterConfig from './config/router.config'
 
-const mergeRoute = (isDemo) => {
+const mergeRoute = () => {
   const route = [{
     path: '*',
     redirect: to => '/'

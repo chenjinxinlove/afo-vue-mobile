@@ -2,11 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import progress from 'nprogress'
-import VantDoc from 'vant-doc'
 import routes from './router'
 import { isMobile } from './utils'
 
-Vue.use(VueRouter).use(VantDoc)
+Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'hash',

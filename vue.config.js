@@ -1,5 +1,5 @@
 module.exports = {
   configureWebpack: {
-    entry: './docs/main.js'
+    entry: './example/main.js'
   }
 }

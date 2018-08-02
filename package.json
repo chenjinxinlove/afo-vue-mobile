@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "nprogress": "^0.2.0",
-    "vant-doc": "^1.0.7",
     "vue": "^2.5.16",
+    "vue-lazyload": "^1.2.6",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
