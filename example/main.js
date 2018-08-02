@@ -3,9 +3,10 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 import routes from './router'
 import VueLazyload from 'vue-lazyload'
+import Aof from '../src/index'
 
 window.Promise = window.Promise || Promise
-
+Vue.use(Aof)
 Vue.use(VueRouter)
 Vue.use(VueLazyload)
 
