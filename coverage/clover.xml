@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1533285912650" clover="3.2.0">
+  <project timestamp="1533285912650" name="All files">
+    <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6" elements="21" coveredelements="21" complexity="0" loc="9" ncloc="9" packages="2" files="2" classes="2">
+      <package name="button">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/button/index.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="button.components">
+        <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <file name="button.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/button/components/button.vue">
+          <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+          <line num="35" count="20" type="stmt"/>
+          <line num="44" count="20" type="stmt"/>
+          <line num="53" count="20" type="stmt"/>
+          <line num="81" count="2" type="cond" truecount="4" falsecount="0"/>
+          <line num="82" count="1" type="stmt"/>
+          <line num="84" count="1" type="stmt"/>
+          <line num="89" count="5" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

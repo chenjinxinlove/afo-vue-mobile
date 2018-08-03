@@ -79,8 +79,6 @@ export default {
   methods: {
     handleClick (e) {
       if (this.loading || this.disabled) {
-        e.preventDefault()
-        e.stopPropagetion()
         return
       }
       this.$emit('onClick', e)

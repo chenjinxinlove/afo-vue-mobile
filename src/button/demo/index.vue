@@ -51,7 +51,7 @@
 </template>
 <script>
 export default {
-  name: 'button'
+  name: 'AfoButtonDemo'
 }
 </script>
 <style>
