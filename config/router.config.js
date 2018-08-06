@@ -24,6 +24,10 @@ module.exports = {
                 path: 'button',
                 title: 'button - 按钮'
               },
+              {
+                path: 'icon',
+                title: 'icon-图标'
+              }
           ]
         }
       ]

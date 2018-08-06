@@ -1,8 +1,10 @@
 import Button from './button'
+import Icon from './icon'
 
 const version = '0.0.1'
 const components = [
-  Button
+  Button,
+  Icon
 ]
 
 const install = Vue => {

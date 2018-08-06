@@ -27,10 +27,10 @@
       <p>按钮大小</p>
       <div class="show marginbottom">
         <afo-button>默认按钮</afo-button>
-        <afo-button size="small">小号按钮</afo-button> 
+        <afo-button size="small">小号按钮</afo-button>
       </div>
       <afo-button size="large">大号按钮</afo-button>
-    </div>  
+    </div>
     <div>
       <p>禁用状态</p>
       <afo-button disabled>禁用状态</afo-button>

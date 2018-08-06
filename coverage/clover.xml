@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1533285912650" clover="3.2.0">
-  <project timestamp="1533285912650" name="All files">
-    <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6" elements="21" coveredelements="21" complexity="0" loc="9" ncloc="9" packages="2" files="2" classes="2">
+<coverage generated="1533543912471" clover="3.2.0">
+  <project timestamp="1533543912472" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="10" coveredmethods="10" elements="30" coveredelements="30" complexity="0" loc="14" ncloc="14" packages="5" files="5" classes="5">
       <package name="button">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <file name="index.js" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/button/index.js">
@@ -21,6 +21,29 @@
           <line num="82" count="1" type="stmt"/>
           <line num="84" count="1" type="stmt"/>
           <line num="89" count="5" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+      <package name="icon">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/icon/index.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="icon.components">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <file name="icon.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/icon/components/icon.vue">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="28" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="icon.demo">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/icon/demo/index.vue">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="13" count="1" type="stmt"/>
         </file>
       </package>
     </metrics>

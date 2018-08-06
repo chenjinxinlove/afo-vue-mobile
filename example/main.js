@@ -4,6 +4,7 @@ import App from './App.vue'
 import routes from './router'
 import VueLazyload from 'vue-lazyload'
 import Aof from '../src/index'
+import '../common/icon/afo-icon.styl'
 
 window.Promise = window.Promise || Promise
 Vue.use(Aof)
