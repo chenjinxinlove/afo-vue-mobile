@@ -31,6 +31,10 @@ module.exports = {
             {
               path: 'loading',
               title: 'loading'
+            },
+            {
+              path: 'badge',
+              title: 'badge-徽章'
             }
           ]
         }

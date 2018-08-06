@@ -1,12 +1,14 @@
 import Button from './button'
 import Icon from './icon'
 import Loading from './loading'
+import Badge from './badge'
 
 const version = '0.0.1'
 const components = [
   Button,
   Icon,
-  Loading
+  Loading,
+  Badge
 ]
 
 const install = Vue => {
@@ -23,7 +25,8 @@ if (typeof window !== 'undefined' && window.Vue) {
 const Afo = {
   install,
   version,
-  Button
+  Button,
+  Badge
 }
 
 export default Afo
