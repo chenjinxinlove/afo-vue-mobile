@@ -14,7 +14,7 @@ Vue.use(Icon);
 设置`type`属性为对应的图标名称即可
 
 ```html
-<afo-icon type=select" />
+<afo-icon type="select" />
 ```
 
 ### API

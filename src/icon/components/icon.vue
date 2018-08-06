@@ -9,7 +9,7 @@
  * @param {string} [size='32px'] - 图标的大小
  * @param {string} [color=''] - 图标的颜色
  * @param {sting} [type=''] - 图标的名称
- * @example <afo-icon type="select" color="red" size="30px"></afo-icon> 
+ * @example <afo-icon type="select" color="red" size="30px"></afo-icon>
  */
 export default {
   name: 'afo-icon',

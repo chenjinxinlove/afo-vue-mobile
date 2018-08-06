@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading.vue demo snapshot 1`] = `
+<div>
+  <afo-loading-stub size="30" color="white"></afo-loading-stub>
+</div>
+`;

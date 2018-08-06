@@ -1,10 +1,12 @@
 import Button from './button'
 import Icon from './icon'
+import Loading from './loading'
 
 const version = '0.0.1'
 const components = [
   Button,
-  Icon
+  Icon,
+  Loading
 ]
 
 const install = Vue => {

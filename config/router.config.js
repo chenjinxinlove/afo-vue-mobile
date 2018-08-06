@@ -20,14 +20,18 @@ module.exports = {
         {
           childrensName: '基础组件',
           list: [
-              {
-                path: 'button',
-                title: 'button - 按钮'
-              },
-              {
-                path: 'icon',
-                title: 'icon-图标'
-              }
+            {
+              path: 'button',
+              title: 'button - 按钮'
+            },
+            {
+              path: 'icon',
+              title: 'icon-图标'
+            },
+            {
+              path: 'loading',
+              title: 'loading'
+            }
           ]
         }
       ]
