@@ -3,6 +3,7 @@ import Icon from './icon'
 import Loading from './loading'
 import Badge from './badge'
 import Navbar from './navbar'
+import Tag from './tag'
 
 const version = '0.0.1'
 const components = [
@@ -10,7 +11,8 @@ const components = [
   Icon,
   Loading,
   Badge,
-  Navbar
+  Navbar,
+  Tag
 ]
 
 const install = Vue => {
@@ -31,7 +33,8 @@ const Afo = {
   Loading,
   Button,
   Badge,
-  Navbar
+  Navbar,
+  Tag
 }
 
 export default Afo

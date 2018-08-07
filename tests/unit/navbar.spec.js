@@ -4,7 +4,7 @@ import Vue from 'vue'
 import { shallowMount } from '@vue/test-utils'
 // import { renderToString } from '@vue/server-test-utils'
 
-describe('Loading.vue', () => {
+describe('Navbar.vue', () => {
   // 测试是否可以被使用
   it('use', () => {
     Vue.use(Navbar)

@@ -1,0 +1,102 @@
+<template>
+  <div
+    :class="wrapCls"
+  >
+    <slot></slot>
+  </div>
+</template>
+<script>
+/**
+ * afo-tag
+ * @module components/tag
+ * @desc 标签
+ * @param {boolean} [plain=false] - 是否是空心
+ * @param {boolean} [mark=false] - 是否是圆角
+ * @param {string} [type] - 接受default, primary, danger
+ *
+ * @example
+ * <afo-tag mark type="danger">标签</afo-tag>
+ */
+export default {
+  name: 'afo-tag',
+  props: {
+    type: {
+      type: String,
+      default: 'default',
+      validator (value) {
+        return [
+          'default', 'danger', 'primary'
+        ].indexOf(value) > -1
+      }
+    },
+    plain: {
+      type: Boolean,
+      default: false
+    },
+    mark: {
+      type: Boolean,
+      default: false
+    }
+  },
+  computed: {
+    wrapCls () {
+      return [
+        `afo-tag--${this.plain ? this.type + 'plain' : this.type}`,
+        {'afo-tag--mark': this.mark},
+        {'afo-tag': true}
+      ]
+    }
+  }
+}
+</script>
+<style lang="stylus">
+@require "../../../common/stylus/variable.styl"
+@require "../../../common/stylus/mixin.styl"
+.afo-tag
+  display: block
+  margin: 0
+  text-align: center
+  white-space: nowrap
+  cursor: pointer
+  color: $fill-base
+  background: $brand-default
+  font-size: $fontsize-large
+  line-height: 1
+  outline: none
+  border: none
+  border-radius: 2px
+  box-sizing: border-box
+  -webkit-tap-highlight-color: transparent
+  display: inline-block
+  padding: 2px 5px
+.afo-tag--defaultplain
+  background: $btn-default-bgc
+  color: $color-text-base
+  border-1px($brand-default)
+
+.afo-tag--primary
+  background: $btn-primary-bgc
+  color: $btn-default-color
+
+.afo-tag--primaryplain
+  background: $btn-default-bgc
+  color: $color-text-base
+  border-1px($btn-primary-color)
+
+.afo-tag--danger
+  background: $btn-danger-bgc
+  color: $btn-default-color
+
+.afo-tag--dangerplain
+  background: $btn-default-bgc
+  color: $color-text-base
+  border-1px($btn-danger-color)
+
+.afo-tag-disabled
+  background: $btn-disabled-bgc
+  border-1px($btn-disabled-bdc)
+
+.afo-tag--mark
+  padding-right: 7px
+  border-radius: 0 8px 8px 0
+</style>

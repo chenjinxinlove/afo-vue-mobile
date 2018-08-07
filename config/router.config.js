@@ -38,7 +38,11 @@ module.exports = {
             },
             {
               path: 'navbar',
-              title: 'nabbar-导航'
+              title: 'navbar-导航'
+            },
+            {
+              path: 'tag',
+              title: 'tag-标签'
             }
           ]
         }
