@@ -35,6 +35,10 @@ module.exports = {
             {
               path: 'badge',
               title: 'badge-徽章'
+            },
+            {
+              path: 'navbar',
+              title: 'nabbar-导航'
             }
           ]
         }

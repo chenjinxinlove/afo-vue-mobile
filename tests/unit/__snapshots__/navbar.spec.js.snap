@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading.vue demo snapshot 1`] = `
+<div>
+  <afo-navbar-stub fixed="true" title="我是fixed标题"></afo-navbar-stub>
+  <afo-navbar-stub title="我是标题"></afo-navbar-stub>
+</div>
+`;

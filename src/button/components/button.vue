@@ -6,7 +6,7 @@
     class="afo-button"
     :class="btnClass"
   >
-  <i v-if="icon" :class="'afo-' + icon"></i>
+  <i v-if="icon" :class="'afo-icon-' + icon"></i>
   <slot></slot>
   </button>
 </template>

@@ -16,7 +16,7 @@ describe('Button.vue', () => {
     const wrapper = shallowMount(Button, {
       propsData: { icon: 'test' }
     })
-    expect(wrapper.find('i').classes()).toContain('afo-test')
+    expect(wrapper.find('i').classes()).toContain('afo-icon-test')
   })
   // 测试props
   it('props', () => {
