@@ -43,6 +43,10 @@ module.exports = {
             {
               path: 'tag',
               title: 'tag-标签'
+            },
+            {
+              path: 'card',
+              title: 'card-卡片'
             }
           ]
         }

@@ -4,6 +4,7 @@ import Loading from '../src/loading/demo/'
 import Badge from '../src/badge/demo/'
 import Navbar from '../src/navbar/demo/'
 import Tag from '../src/tag/demo/'
+import Card from '../src/card/demo/'
 
 export default {
   'button': Button,
@@ -11,5 +12,6 @@ export default {
   'loading': Loading,
   'badge': Badge,
   'navbar': Navbar,
-  'tag': Tag
+  'tag': Tag,
+  'card': Card
 }
