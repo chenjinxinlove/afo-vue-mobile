@@ -1,8 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Loading.vue demo snapshot 1`] = `
+exports[`Navbar.vue demo snapshot 1`] = `
 <div>
-  <afo-navbar-stub fixed="true" title="我是fixed标题"></afo-navbar-stub>
-  <afo-navbar-stub title="我是标题"></afo-navbar-stub>
+  <header class="afo-navbar is-fixed">
+    <div class="afo-navbar-button is-left">
+      <button type="button" class="afo-button afo-button--default afo-button--normal">
+        <i class="afo-icon-back"></i>
+        <!---->返回</button>
+    </div>
+    <h1 class="afo-navbar-title">我是fixed标题</h1>
+    <div class="afo-navbar-button is-right">
+      <button type="button" class="afo-button afo-button--default afo-button--normal">
+        <i class="afo-icon-more"></i>
+        <!---->
+      </button>
+    </div>
+  </header>
+  <header class="afo-navbar">
+    <div class="afo-navbar-button is-left">
+      <button type="button" class="afo-button afo-button--default afo-button--normal">
+        <i class="afo-icon-back"></i>
+        <!---->返回</button>
+    </div>
+    <h1 class="afo-navbar-title">我是标题</h1>
+    <div class="afo-navbar-button is-right">
+      <button type="button" class="afo-button afo-button--default afo-button--normal">
+        <i class="afo-icon-more"></i>
+        <!---->
+      </button>
+    </div>
+  </header>
 </div>
 `;

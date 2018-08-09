@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1533630854918" clover="3.2.0">
-  <project timestamp="1533630854918" name="All files">
-    <metrics statements="25" coveredstatements="25" conditionals="8" coveredconditionals="8" methods="18" coveredmethods="18" elements="51" coveredelements="51" complexity="0" loc="25" ncloc="25" packages="11" files="11" classes="11">
+<coverage generated="1533800194932" clover="3.2.0">
+  <project timestamp="1533800194932" name="All files">
+    <metrics statements="37" coveredstatements="36" conditionals="14" coveredconditionals="11" methods="21" coveredmethods="20" elements="72" coveredelements="67" complexity="0" loc="37" ncloc="37" packages="12" files="12" classes="12">
       <package name="button">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <file name="index.js" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/button/index.js">
@@ -11,16 +11,17 @@
         </file>
       </package>
       <package name="button.components">
-        <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
         <file name="button.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/button/components/button.vue">
-          <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
-          <line num="35" count="20" type="stmt"/>
-          <line num="44" count="20" type="stmt"/>
-          <line num="53" count="20" type="stmt"/>
-          <line num="81" count="2" type="cond" truecount="4" falsecount="0"/>
-          <line num="82" count="1" type="stmt"/>
-          <line num="84" count="1" type="stmt"/>
-          <line num="89" count="5" type="cond" truecount="2" falsecount="0"/>
+          <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+          <line num="29" count="2" type="stmt"/>
+          <line num="40" count="24" type="stmt"/>
+          <line num="49" count="24" type="stmt"/>
+          <line num="58" count="24" type="stmt"/>
+          <line num="86" count="2" type="cond" truecount="4" falsecount="0"/>
+          <line num="87" count="1" type="stmt"/>
+          <line num="89" count="1" type="stmt"/>
+          <line num="94" count="24" type="cond" truecount="2" falsecount="0"/>
         </file>
       </package>
       <package name="icon">
@@ -36,7 +37,7 @@
         <file name="icon.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/icon/components/icon.vue">
           <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
           <line num="32" count="1" type="stmt"/>
-          <line num="37" count="3" type="stmt"/>
+          <line num="37" count="68" type="stmt"/>
         </file>
       </package>
       <package name="icon.demo">
@@ -58,8 +59,8 @@
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <file name="loading.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/loading/components/loading.vue">
           <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-          <line num="28" count="1" type="stmt"/>
-          <line num="36" count="1" type="stmt"/>
+          <line num="28" count="4" type="stmt"/>
+          <line num="36" count="4" type="stmt"/>
         </file>
       </package>
       <package name="navbar">
@@ -74,7 +75,24 @@
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <file name="navbar.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/navbar/components/navbar.vue">
           <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="42" count="1" type="stmt"/>
+          <line num="42" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="navbar.demo">
+        <metrics statements="11" coveredstatements="10" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="2"/>
+        <file name="index.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/navbar/demo/index.vue">
+          <metrics statements="11" coveredstatements="10" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="2"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="38" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="39" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="40" count="1" type="stmt"/>
         </file>
       </package>
       <package name="tag">
@@ -89,8 +107,8 @@
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <file name="tag.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/tag/components/tag.vue">
           <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-          <line num="27" count="2" type="stmt"/>
-          <line num="43" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="27" count="11" type="stmt"/>
+          <line num="43" count="11" type="cond" truecount="2" falsecount="0"/>
         </file>
       </package>
     </metrics>

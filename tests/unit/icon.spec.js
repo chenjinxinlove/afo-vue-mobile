@@ -2,7 +2,7 @@ import Icon from '../../src/icon/index'
 import Vue from 'vue'
 import sinon from 'sinon'
 import Demo from '../../src/icon/demo'
-import { shallowMount } from '@vue/test-utils'
+import {shallowMount, mount} from '@vue/test-utils'
 
 describe('Icon.vue', () => {
   // 测试是否可以被使用
@@ -40,6 +40,6 @@ describe('Icon.vue', () => {
   })
   // demo测试快照
   it('demo snapshot', () => {
-    expect(shallowMount(Demo).html()).toMatchSnapshot()
+    expect(mount(Demo).html()).toMatchSnapshot()
   })
 })

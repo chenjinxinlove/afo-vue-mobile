@@ -11,8 +11,12 @@
   </div>
 </template>
 <script>
+import afoButton from '../../button/components/button'
 export default {
   name: 'navbarDemo',
+  components: {
+    afoButton
+  },
   methods: {
     handleBack () {
       console.log('click')

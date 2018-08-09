@@ -7,6 +7,7 @@
     :class="btnClass"
   >
   <i v-if="icon" :class="'afo-icon-' + icon"></i>
+  <loading v-if="loading" size="24" />
   <slot></slot>
   </button>
 </template>
@@ -25,8 +26,12 @@
  * @param {string} [icon] - 接受icon的type
  * @example <afo-button size="small" type="primary">按钮</afo-button>
 */
+import loading from '../../loading/components/loading'
 export default {
   name: 'afo-button',
+  components: {
+    loading
+  },
   props: {
     effect: {
       type: String,
@@ -102,7 +107,9 @@ export default {
 @require "../../../common/stylus/variable.styl"
 @require "../../../common/stylus/mixin.styl"
 .afo-button
-  display: block
+  display: flex
+  justify-content center
+  align-items center
   margin: 0
   padding: 13px 16px
   text-align: center
@@ -117,7 +124,9 @@ export default {
   box-sizing: border-box
   border-1px($btn-default-border)
   -webkit-tap-highlight-color: transparent
-
+  .afo-loading
+    display: inline-block
+    margin-right: 10px
 .afo-button--primary
   background: $btn-primary-bgc
   color: $btn-default-color

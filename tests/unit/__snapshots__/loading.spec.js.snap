@@ -2,6 +2,6 @@
 
 exports[`Loading.vue demo snapshot 1`] = `
 <div>
-  <afo-loading-stub size="30" color="white"></afo-loading-stub>
+  <div class="afo-loading afo-loading-white"><span class="afo-loading-spinners" style="width: 30px; height: 30px;"><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i></span></div>
 </div>
 `;

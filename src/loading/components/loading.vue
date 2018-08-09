@@ -18,8 +18,8 @@ export default {
   name: 'afo-loading',
   props: {
     size: {
-      type: Number,
-      default: 30
+      type: String,
+      default: "30"
     },
     color: {
       type: String,

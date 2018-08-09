@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag.vue demo snapshot 1`] = `
+<div>
+  <div>
+    <div class="afo-tag--default afo-tag">标签</div>
+    <div class="afo-tag--danger afo-tag">标签</div>
+    <div class="afo-tag--primary afo-tag">标签</div>
+  </div>
+  <div>
+    <div class="afo-tag--defaultplain afo-tag">标签</div>
+    <div class="afo-tag--dangerplain afo-tag">标签</div>
+    <div class="afo-tag--primaryplain afo-tag">标签</div>
+  </div>
+  <div>
+    <div class="afo-tag--default afo-tag--mark afo-tag">标签</div>
+    <div class="afo-tag--danger afo-tag--mark afo-tag">标签</div>
+    <div class="afo-tag--primary afo-tag--mark afo-tag">标签</div>
+  </div>
+</div>
+`;

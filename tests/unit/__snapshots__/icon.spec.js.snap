@@ -3,134 +3,134 @@
 exports[`Icon.vue demo snapshot 1`] = `
 <div>
   <div>
-    <afo-icon-stub size="32px" color="" type="eye-invisible"></afo-icon-stub> <span>eye-invisible</span></div>
+    <i class="afo-icon afo-icon-eye-invisible" style="font-size: 32px;"></i> <span>eye-invisible</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="eye-visible"></afo-icon-stub> <span>eye-visible</span></div>
+    <i class="afo-icon afo-icon-eye-visible" style="font-size: 32px;"></i> <span>eye-visible</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="square-right"></afo-icon-stub> <span>square-right</span></div>
+    <i class="afo-icon afo-icon-square-right" style="font-size: 32px;"></i> <span>square-right</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="select"></afo-icon-stub> <span>select</span></div>
+    <i class="afo-icon afo-icon-select" style="font-size: 32px;"></i> <span>select</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="pulldown"></afo-icon-stub> <span>pulldown</span></div>
+    <i class="afo-icon afo-icon-pulldown" style="font-size: 32px;"></i> <span>pulldown</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="pullup"></afo-icon-stub> <span>pullup</span></div>
+    <i class="afo-icon afo-icon-pullup" style="font-size: 32px;"></i> <span>pullup</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="more"></afo-icon-stub> <span>more</span></div>
+    <i class="afo-icon afo-icon-more" style="font-size: 32px;"></i> <span>more</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="back"></afo-icon-stub> <span>back</span></div>
+    <i class="afo-icon afo-icon-back" style="font-size: 32px;"></i> <span>back</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="arrow"></afo-icon-stub> <span>arrow</span></div>
+    <i class="afo-icon afo-icon-arrow" style="font-size: 32px;"></i> <span>arrow</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="close"></afo-icon-stub> <span>close</span></div>
+    <i class="afo-icon afo-icon-close" style="font-size: 32px;"></i> <span>close</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="warn"></afo-icon-stub> <span>warn</span></div>
+    <i class="afo-icon afo-icon-warn" style="font-size: 32px;"></i> <span>warn</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="question"></afo-icon-stub> <span>question</span></div>
+    <i class="afo-icon afo-icon-question" style="font-size: 32px;"></i> <span>question</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="right"></afo-icon-stub> <span>right</span></div>
+    <i class="afo-icon afo-icon-right" style="font-size: 32px;"></i> <span>right</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="wrong"></afo-icon-stub> <span>wrong</span></div>
+    <i class="afo-icon afo-icon-wrong" style="font-size: 32px;"></i> <span>wrong</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="info"></afo-icon-stub> <span>info</span></div>
+    <i class="afo-icon afo-icon-info" style="font-size: 32px;"></i> <span>info</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="remove"></afo-icon-stub> <span>remove</span></div>
+    <i class="afo-icon afo-icon-remove" style="font-size: 32px;"></i> <span>remove</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="add"></afo-icon-stub> <span>add</span></div>
+    <i class="afo-icon afo-icon-add" style="font-size: 32px;"></i> <span>add</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="share"></afo-icon-stub> <span>share</span></div>
+    <i class="afo-icon afo-icon-share" style="font-size: 32px;"></i> <span>share</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="no-wifi"></afo-icon-stub> <span>no-wifi</span></div>
+    <i class="afo-icon afo-icon-no-wifi" style="font-size: 32px;"></i> <span>no-wifi</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="smile"></afo-icon-stub> <span>smile</span></div>
+    <i class="afo-icon afo-icon-smile" style="font-size: 32px;"></i> <span>smile</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="sad"></afo-icon-stub> <span>sad</span></div>
+    <i class="afo-icon afo-icon-sad" style="font-size: 32px;"></i> <span>sad</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="email"></afo-icon-stub> <span>email</span></div>
+    <i class="afo-icon afo-icon-email" style="font-size: 32px;"></i> <span>email</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="game"></afo-icon-stub> <span>game</span></div>
+    <i class="afo-icon afo-icon-game" style="font-size: 32px;"></i> <span>game</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="wifi"></afo-icon-stub> <span>wifi</span></div>
+    <i class="afo-icon afo-icon-wifi" style="font-size: 32px;"></i> <span>wifi</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="hot"></afo-icon-stub> <span>hot</span></div>
+    <i class="afo-icon afo-icon-hot" style="font-size: 32px;"></i> <span>hot</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="notification"></afo-icon-stub> <span>notification</span></div>
+    <i class="afo-icon afo-icon-notification" style="font-size: 32px;"></i> <span>notification</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="delete"></afo-icon-stub> <span>delete</span></div>
+    <i class="afo-icon afo-icon-delete" style="font-size: 32px;"></i> <span>delete</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="vip"></afo-icon-stub> <span>vip</span></div>
+    <i class="afo-icon afo-icon-vip" style="font-size: 32px;"></i> <span>vip</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="mute"></afo-icon-stub> <span>mute</span></div>
+    <i class="afo-icon afo-icon-mute" style="font-size: 32px;"></i> <span>mute</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="danger"></afo-icon-stub> <span>danger</span></div>
+    <i class="afo-icon afo-icon-danger" style="font-size: 32px;"></i> <span>danger</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="volume"></afo-icon-stub> <span>volume</span></div>
+    <i class="afo-icon afo-icon-volume" style="font-size: 32px;"></i> <span>volume</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="bad"></afo-icon-stub> <span>bad</span></div>
+    <i class="afo-icon afo-icon-bad" style="font-size: 32px;"></i> <span>bad</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="mobile-phone"></afo-icon-stub> <span>mobile-phone</span></div>
+    <i class="afo-icon afo-icon-mobile-phone" style="font-size: 32px;"></i> <span>mobile-phone</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="aim"></afo-icon-stub> <span>aim</span></div>
+    <i class="afo-icon afo-icon-aim" style="font-size: 32px;"></i> <span>aim</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="navigation"></afo-icon-stub> <span>navigation</span></div>
+    <i class="afo-icon afo-icon-navigation" style="font-size: 32px;"></i> <span>navigation</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="safe-pay"></afo-icon-stub> <span>safe-pay</span></div>
+    <i class="afo-icon afo-icon-safe-pay" style="font-size: 32px;"></i> <span>safe-pay</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="tag"></afo-icon-stub> <span>tag</span></div>
+    <i class="afo-icon afo-icon-tag" style="font-size: 32px;"></i> <span>tag</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="lock"></afo-icon-stub> <span>lock</span></div>
+    <i class="afo-icon afo-icon-lock" style="font-size: 32px;"></i> <span>lock</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="unlock"></afo-icon-stub> <span>unlock</span></div>
+    <i class="afo-icon afo-icon-unlock" style="font-size: 32px;"></i> <span>unlock</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="edit"></afo-icon-stub> <span>edit</span></div>
+    <i class="afo-icon afo-icon-edit" style="font-size: 32px;"></i> <span>edit</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="scan"></afo-icon-stub> <span>scan</span></div>
+    <i class="afo-icon afo-icon-scan" style="font-size: 32px;"></i> <span>scan</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="qr-code"></afo-icon-stub> <span>qr-code</span></div>
+    <i class="afo-icon afo-icon-qr-code" style="font-size: 32px;"></i> <span>qr-code</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="calendar"></afo-icon-stub> <span>calendar</span></div>
+    <i class="afo-icon afo-icon-calendar" style="font-size: 32px;"></i> <span>calendar</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="time"></afo-icon-stub> <span>time</span></div>
+    <i class="afo-icon afo-icon-time" style="font-size: 32px;"></i> <span>time</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="red-packet"></afo-icon-stub> <span>red-packet</span></div>
+    <i class="afo-icon afo-icon-red-packet" style="font-size: 32px;"></i> <span>red-packet</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="star"></afo-icon-stub> <span>star</span></div>
+    <i class="afo-icon afo-icon-star" style="font-size: 32px;"></i> <span>star</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="setting"></afo-icon-stub> <span>setting</span></div>
+    <i class="afo-icon afo-icon-setting" style="font-size: 32px;"></i> <span>setting</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="home"></afo-icon-stub> <span>home</span></div>
+    <i class="afo-icon afo-icon-home" style="font-size: 32px;"></i> <span>home</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="credit-card"></afo-icon-stub> <span>credit-card</span></div>
+    <i class="afo-icon afo-icon-credit-card" style="font-size: 32px;"></i> <span>credit-card</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="mall"></afo-icon-stub> <span>mall</span></div>
+    <i class="afo-icon afo-icon-mall" style="font-size: 32px;"></i> <span>mall</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="microphone"></afo-icon-stub> <span>microphone</span></div>
+    <i class="afo-icon afo-icon-microphone" style="font-size: 32px;"></i> <span>microphone</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="search"></afo-icon-stub> <span>search</span></div>
+    <i class="afo-icon afo-icon-search" style="font-size: 32px;"></i> <span>search</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="good"></afo-icon-stub> <span>good</span></div>
+    <i class="afo-icon afo-icon-good" style="font-size: 32px;"></i> <span>good</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="alert"></afo-icon-stub> <span>alert</span></div>
+    <i class="afo-icon afo-icon-alert" style="font-size: 32px;"></i> <span>alert</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="picture"></afo-icon-stub> <span>picture</span></div>
+    <i class="afo-icon afo-icon-picture" style="font-size: 32px;"></i> <span>picture</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="message"></afo-icon-stub> <span>message</span></div>
+    <i class="afo-icon afo-icon-message" style="font-size: 32px;"></i> <span>message</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="phone"></afo-icon-stub> <span>phone</span></div>
+    <i class="afo-icon afo-icon-phone" style="font-size: 32px;"></i> <span>phone</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="location"></afo-icon-stub> <span>location</span></div>
+    <i class="afo-icon afo-icon-location" style="font-size: 32px;"></i> <span>location</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="like"></afo-icon-stub> <span>like</span></div>
+    <i class="afo-icon afo-icon-like" style="font-size: 32px;"></i> <span>like</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="camera"></afo-icon-stub> <span>camera</span></div>
+    <i class="afo-icon afo-icon-camera" style="font-size: 32px;"></i> <span>camera</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="person"></afo-icon-stub> <span>person</span></div>
+    <i class="afo-icon afo-icon-person" style="font-size: 32px;"></i> <span>person</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="round-border"></afo-icon-stub> <span>round-border</span></div>
+    <i class="afo-icon afo-icon-round-border" style="font-size: 32px;"></i> <span>round-border</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="important"></afo-icon-stub> <span>important</span></div>
+    <i class="afo-icon afo-icon-important" style="font-size: 32px;"></i> <span>important</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="ok"></afo-icon-stub> <span>ok</span></div>
+    <i class="afo-icon afo-icon-ok" style="font-size: 32px;"></i> <span>ok</span></div>
   <div>
-    <afo-icon-stub size="32px" color="" type="square-border"></afo-icon-stub> <span>square-border</span></div>
+    <i class="afo-icon afo-icon-square-border" style="font-size: 32px;"></i> <span>square-border</span></div>
 </div>
 `;

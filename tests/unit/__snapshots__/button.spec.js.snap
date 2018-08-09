@@ -5,49 +5,80 @@ exports[`Button.vue demo snapshot 1`] = `
   <div>
     <p>按钮用途</p>
     <div class="show">
-      <afo-button-stub effect="button" type="default" size="normal" icon="">默认按钮</afo-button-stub>
-      <afo-button-stub effect="submit" type="default" size="normal" icon="">提交按钮</afo-button-stub>
+      <button type="button" class="afo-button afo-button--default afo-button--normal">
+        <!---->
+        <!---->默认按钮</button>
+      <button type="submit" class="afo-button afo-button--default afo-button--normal">
+        <!---->
+        <!---->提交按钮</button>
     </div>
   </div>
   <div>
     <p>按钮类型</p>
     <div class="show">
-      <afo-button-stub effect="button" type="default" size="normal" icon="">默认按钮</afo-button-stub>
-      <afo-button-stub effect="button" type="primary" size="normal" icon="">主要按钮</afo-button-stub>
-      <afo-button-stub effect="button" type="danger" size="normal" icon="">危险按钮</afo-button-stub>
+      <button type="button" class="afo-button afo-button--default afo-button--normal">
+        <!---->
+        <!---->默认按钮</button>
+      <button type="button" class="afo-button afo-button--primary afo-button--normal">
+        <!---->
+        <!---->主要按钮</button>
+      <button type="button" class="afo-button afo-button--danger afo-button--normal">
+        <!---->
+        <!---->危险按钮</button>
     </div>
   </div>
   <div>
     <p>素按钮类型</p>
     <div class="show">
-      <afo-button-stub effect="button" type="default" size="normal" plain="true" icon="">默认按钮</afo-button-stub>
-      <afo-button-stub effect="button" type="primary" size="normal" plain="true" icon="">主要按钮</afo-button-stub>
-      <afo-button-stub effect="button" type="danger" size="normal" plain="true" icon="">危险按钮</afo-button-stub>
+      <button type="button" class="afo-button afo-button--defaultplain afo-button--normal">
+        <!---->
+        <!---->默认按钮</button>
+      <button type="button" class="afo-button afo-button--primaryplain afo-button--normal">
+        <!---->
+        <!---->主要按钮</button>
+      <button type="button" class="afo-button afo-button--dangerplain afo-button--normal">
+        <!---->
+        <!---->危险按钮</button>
     </div>
   </div>
   <div>
     <p>按钮大小</p>
     <div class="show marginbottom">
-      <afo-button-stub effect="button" type="default" size="normal" icon="">默认按钮</afo-button-stub>
-      <afo-button-stub effect="button" type="default" size="small" icon="">小号按钮</afo-button-stub>
+      <button type="button" class="afo-button afo-button--default afo-button--normal">
+        <!---->
+        <!---->默认按钮</button>
+      <button type="button" class="afo-button afo-button--default afo-button--small">
+        <!---->
+        <!---->小号按钮</button>
     </div>
-    <afo-button-stub effect="button" type="default" size="large" icon="">大号按钮</afo-button-stub>
+    <button type="button" class="afo-button afo-button--default afo-button--large">
+      <!---->
+      <!---->大号按钮</button>
   </div>
   <div>
     <p>禁用状态</p>
-    <afo-button-stub effect="button" type="default" size="normal" disabled="true" icon="">禁用状态</afo-button-stub>
+    <button type="button" disabled="disabled" class="afo-button afo-button--default afo-button--normal afo-button-disabled">
+      <!---->
+      <!---->禁用状态</button>
   </div>
   <div>
     <p>行内按钮</p>
-    <afo-button-stub effect="button" type="default" size="normal" inline="true" icon="">行内按钮</afo-button-stub>
+    <button type="button" class="afo-button afo-button--default afo-button--normal afo-button-inline">
+      <!---->
+      <!---->行内按钮</button>
   </div>
   <div>
     <p>loading按钮</p>
-    <afo-button-stub effect="button" type="default" size="normal" loading="true" icon="">loading按钮</afo-button-stub>
+    <button type="button" class="afo-button afo-button--default afo-button--normal">
+      <!---->
+      <div class="afo-loading afo-loading-black"><span class="afo-loading-spinners" style="width: 24px; height: 24px;"><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i><i class="afo-loading-spinner"></i></span></div>
+      loading按钮</button>
   </div>
   <div>
     <p>Icon按钮</p>
-    <afo-button-stub effect="button" type="default" size="normal" icon="left">Icon按钮</afo-button-stub>
+    <button type="button" class="afo-button afo-button--default afo-button--normal">
+      <i class="afo-icon-left"></i>
+      <!---->Icon按钮</button>
   </div>
 </div>
 `;

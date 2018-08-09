@@ -1,4 +1,4 @@
-import { shallowMount } from '@vue/test-utils'
+import {shallowMount, mount} from '@vue/test-utils'
 import sinon from 'sinon'
 import Vue from 'vue'
 import Button from '../../src/button'
@@ -57,7 +57,7 @@ describe('Button.vue', () => {
   // 测试事件loading不被响应
   it('events-no-loading-called', () => {
     const clickHandler = sinon.stub()
-    const wrapper = shallowMount(Button, {
+    const wrapper = mount(Button, {
       propsData: {
         loading: true
       }
@@ -68,6 +68,6 @@ describe('Button.vue', () => {
   })
   // demo测试快照
   it('demo snapshot', () => {
-    expect(shallowMount(Demo).html()).toMatchSnapshot()
+    expect(mount(Demo)).toMatchSnapshot()
   })
 })

@@ -1,4 +1,5 @@
-import { shallowMount } from '@vue/test-utils'
+import {shallowMount, mount} from '@vue/test-utils'
+import Demo from '../../src/tag/demo'
 import Vue from 'vue'
 import Tag from '../../src/tag'
 
@@ -27,5 +28,9 @@ describe('Tag.vue', () => {
       }
     })
     expect(wrapper.classes()).toEqual(['afo-tag--default', 'afo-tag--mark', 'afo-tag'])
+  })
+  // demo测试快照
+  it('demo snapshot', () => {
+    expect(mount(Demo)).toMatchSnapshot()
   })
 })
