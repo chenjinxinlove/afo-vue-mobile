@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card.vue demo snapshot 1`] = `
+<div>
+  <div class="afo-card">
+    <div class="afo-card-header afo-card--cell">
+      <div class="afo-card--title"><span>标题</span>
+        <div class="afo-card--label">描述信息</div>
+      </div>
+    </div>
+    <div class="afo-card-content afo-card--cell">
+      <div>内容</div>
+    </div>
+    <!---->
+  </div>
+  <div class="afo-card">
+    <div class="afo-card-header afo-card--cell">
+      <div class="afo-card--title"><span>标题</span>
+        <div class="afo-card--label">描述信息</div>
+      </div>
+    </div>
+    <div class="afo-card-content afo-card--cell">
+      <div>内容</div>
+    </div>
+    <div class="afp-card-footer afo-card--cell afo-hairline--top">
+      <div>
+        <afo-button size="small">按钮</afo-button>
+        <afo-button size="small" type="danger">按钮</afo-button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
