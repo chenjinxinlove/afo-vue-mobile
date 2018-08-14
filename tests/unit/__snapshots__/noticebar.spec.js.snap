@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotiveBar.vue demo snapshot 1`] = `
+<div>
+  <div class="afo-notice-bar" style="color: rgb(255, 102, 0); background: rgb(255, 247, 204);">
+    <div class="afo-notice-left-icon">
+      <img src="http://img.yzcdn.cn/public_files/2017/8/10/6af5b7168eed548100d9041f07b7c616.png">
+    </div>
+    <div class="afo-notice-bar__wrap">
+      <div class="afo-notice-bar__content " style="padding-left: 0px;">最近做的项目是从0开始采用Vue作为数据驱动框架。所以有很多Vue实战上的经验体会，下面就专门拿几个常用的但难度不高的VUe功能说一下</div>
+    </div>
+    <!---->
+  </div>
+  <div class="afo-notice-bar" style="color: rgb(255, 102, 0); background: rgb(255, 247, 204);">
+    <!---->
+    <div class="afo-notice-bar__wrap">
+      <div class="afo-notice-bar__content " style="padding-left: 0px;">
+        最近做的项目是从0开始采用Vue作为数据驱动框架。所以有很多Vue实战上的经验体会，下面就专门拿几个常用的但难度不高的VUe功能说
+      </div>
+    </div>
+    <!---->
+  </div>
+  <div class="afo-notice-bar afo-notice-bar--withicon" style="color: rgb(255, 102, 0); background: rgb(255, 247, 204);">
+    <!---->
+    <div class="afo-notice-bar__wrap">
+      <div class="afo-notice-bar__content " style="padding-left: 0px;">
+        最近做的项目是从0开始采用Vue作为数据驱动框架。所以有很多Vue实战上的经验体会，下面就专门拿几个常用的但难度不高的VUe功能说
+      </div>
+    </div>
+    <afo-icon type="close" size="14px" class="afo-notice-right-icon"></afo-icon>
+  </div>
+  <div class="afo-notice-bar afo-notice-bar--withicon" style="color: rgb(255, 102, 0); background: rgb(255, 247, 204);">
+    <!---->
+    <div class="afo-notice-bar__wrap">
+      <div class="afo-notice-bar__content " style="padding-left: 0px;">
+        最近做的项目是从0开始采用Vue作为数据驱动框架。所以有很多Vue实战上的经验体会，下面就专门拿几个常用的但难度不高的VUe功能说
+      </div>
+    </div>
+    <afo-icon type="arrow" size="14px" class="afo-notice-right-icon"></afo-icon>
+  </div>
+</div>
+`;

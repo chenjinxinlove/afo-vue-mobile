@@ -47,6 +47,9 @@ module.exports = {
             {
               path: 'card',
               title: 'card-卡片'
+            },
+            {
+              path: 'notice-bar', title: 'NoticeBar-通告栏'
             }
           ]
         }

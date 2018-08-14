@@ -5,6 +5,7 @@ import Badge from '../src/badge/demo/'
 import Navbar from '../src/navbar/demo/'
 import Tag from '../src/tag/demo/'
 import Card from '../src/card/demo/'
+import NoticeBar from '../src/notice-bar/demo'
 
 export default {
   'button': Button,
@@ -13,5 +14,6 @@ export default {
   'badge': Badge,
   'navbar': Navbar,
   'tag': Tag,
-  'card': Card
+  'card': Card,
+  'notice-bar': NoticeBar
 }
