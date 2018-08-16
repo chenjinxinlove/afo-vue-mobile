@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tarbar.vue demo snapshot 1`] = `
+<div>
+  <div class="afo-tabbar afo-tabbar--fixed" style="z-index: 1; background: white;">
+    <afo-tabbar-item>首页
+    </afo-tabbar-item>
+    <afo-tabbar-item icon="mall">购物车</afo-tabbar-item>
+    <afo-tabbar-item icon="credit-card" dot="">订单</afo-tabbar-item>
+    <afo-tabbar-item icon="person" info="12">个人中心</afo-tabbar-item>
+  </div>
+</div>
+`;

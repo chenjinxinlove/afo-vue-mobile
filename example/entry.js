@@ -6,6 +6,7 @@ import Navbar from '../src/navbar/demo/'
 import Tag from '../src/tag/demo/'
 import Card from '../src/card/demo/'
 import NoticeBar from '../src/notice-bar/demo'
+import TabBar from '../src/tabbar/demo/index'
 
 export default {
   'button': Button,
@@ -15,5 +16,6 @@ export default {
   'navbar': Navbar,
   'tag': Tag,
   'card': Card,
-  'notice-bar': NoticeBar
+  'notice-bar': NoticeBar,
+  'tabbar': TabBar
 }

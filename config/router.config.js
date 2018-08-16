@@ -50,6 +50,9 @@ module.exports = {
             },
             {
               path: 'notice-bar', title: 'NoticeBar-通告栏'
+            },
+            {
+              path: 'tabbar', title: 'Tarbar'
             }
           ]
         }

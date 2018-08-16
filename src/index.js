@@ -6,6 +6,8 @@ import Navbar from './navbar'
 import Tag from './tag'
 import Card from './card'
 import NoticeBar from './notice-bar'
+import TabBar from './tabbar'
+import TabBarItem from './tabbar-item'
 
 const version = '0.0.1'
 const components = [
@@ -16,7 +18,9 @@ const components = [
   Navbar,
   Tag,
   Card,
-  NoticeBar
+  NoticeBar,
+  TabBar,
+  TabBarItem
 ]
 
 const install = Vue => {
@@ -40,7 +44,9 @@ const Afo = {
   Navbar,
   Tag,
   Card,
-  NoticeBar
+  NoticeBar,
+  TabBar,
+  TabBarItem
 }
 
 export default Afo
