@@ -15,7 +15,6 @@ describe('Tarbar.vue', () => {
   it('props', () => {
     const wrapper = shallowMount(TarBar, {
       propsData: {
-        title: 'title',
         fixed: true
       },
       slots: {

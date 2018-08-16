@@ -19,7 +19,7 @@ describe('Navbar.vue', () => {
   it('props', () => {
     const wrapper = shallowMount(Navbar, {
       propsData: {
-        title: 'title',
+        title: 'test',
         fixed: true
       },
       slots: {
