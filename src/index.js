@@ -8,6 +8,7 @@ import Card from './card'
 import NoticeBar from './notice-bar'
 import TabBar from './tabbar'
 import TabBarItem from './tabbar-item'
+import Rate from './rate'
 
 const version = '0.0.1'
 const components = [
@@ -20,7 +21,8 @@ const components = [
   Card,
   NoticeBar,
   TabBar,
-  TabBarItem
+  TabBarItem,
+  Rate
 ]
 
 const install = Vue => {
@@ -46,7 +48,8 @@ const Afo = {
   Card,
   NoticeBar,
   TabBar,
-  TabBarItem
+  TabBarItem,
+  Rate
 }
 
 export default Afo

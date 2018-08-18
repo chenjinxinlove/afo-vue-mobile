@@ -19,7 +19,7 @@ export default {
   props: {
     size: {
       type: String,
-      default: "30"
+      default: '30'
     },
     color: {
       type: String,

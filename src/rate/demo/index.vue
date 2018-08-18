@@ -19,12 +19,12 @@
 <script>
 export default {
   name: 'RateDemo',
-  data() {
+  data () {
     return {
       value1: 3,
       value2: 4,
       value3: 2
-    };
+    }
   }
 }
 </script>
