@@ -7,6 +7,7 @@ import Tag from '../src/tag/demo/'
 import Card from '../src/card/demo/'
 import NoticeBar from '../src/notice-bar/demo'
 import TabBar from '../src/tabbar/demo/index'
+import Rate from '../src/rate/demo/'
 
 export default {
   'button': Button,
@@ -17,5 +18,6 @@ export default {
   'tag': Tag,
   'card': Card,
   'notice-bar': NoticeBar,
-  'tabbar': TabBar
+  'tabbar': TabBar,
+  'rate': Rate
 }

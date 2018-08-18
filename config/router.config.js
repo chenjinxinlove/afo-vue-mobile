@@ -53,6 +53,9 @@ module.exports = {
             },
             {
               path: 'tabbar', title: 'Tarbar'
+            },
+            {
+              path: 'rate', title: 'Rate-评分'
             }
           ]
         }
