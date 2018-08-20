@@ -56,6 +56,9 @@ module.exports = {
             },
             {
               path: 'rate', title: 'Rate-评分'
+            },
+            {
+              path: 'tab', title: 'Tab'
             }
           ]
         }

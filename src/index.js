@@ -9,6 +9,8 @@ import NoticeBar from './notice-bar'
 import TabBar from './tabbar'
 import TabBarItem from './tabbar-item'
 import Rate from './rate'
+import Tab from './tab'
+import Tabs from './tabs'
 
 const version = '0.0.1'
 const components = [
@@ -22,7 +24,9 @@ const components = [
   NoticeBar,
   TabBar,
   TabBarItem,
-  Rate
+  Rate,
+  Tab,
+  Tabs
 ]
 
 const install = Vue => {
@@ -49,7 +53,9 @@ const Afo = {
   NoticeBar,
   TabBar,
   TabBarItem,
-  Rate
+  Rate,
+  Tab,
+  Tabs
 }
 
 export default Afo
