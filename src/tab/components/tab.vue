@@ -1,5 +1,5 @@
 <template>
-  <div v-show="isSelected">
+  <div v-show="isSelected" class="afo-tab__pane">
     <slot v-if="inited" />
     <div v-if="$slots.title" ref="title">
       <slot name="title" />
@@ -26,6 +26,16 @@ export default {
     },
     isSelected () {
       return this.index === this.parent.curActive
+    }
+  },
+  watch: {
+    // 监听active的变化，来显示展示content
+    'parent.curActive'() {
+      this.inited = this.inited || this.isSelected
+    },
+
+    title() {
+      this.parent.setLine()
     }
   },
   created () {
