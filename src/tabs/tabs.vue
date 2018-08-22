@@ -28,13 +28,11 @@
 import Touch from '../../common/mixins/touch'
 import { raf } from '../../common/utils/raf'
 import { on, off } from '../../common/utils/event'
-import scrollUtils from '../../common/utils/scroll'
-import { strict } from 'assert'
+
 export default {
   name: 'afo-tabs',
   mixins: [Touch],
   props: {
-    sticky: Boolean,
     lineWidth: Number,
     swipeable: Boolean,
     active: {
@@ -98,16 +96,7 @@ export default {
     curActive () {
       this.scrollIntoView()
       this.setLine()
-
-      // scroll to correct position
-      if (this.position === 'page-top' || this.position === 'content-bottom') {
-        scrollUtils.setScrollTop(window, scrollUtils.getElementTop(this.$el))
-      }
     },
-    sticky () {
-      this.handlers(true)
-    },
-
     swipeable () {
       this.handlers(true)
     }
@@ -120,7 +109,6 @@ export default {
       lineStyle: {},
       events: {
         resize: false,
-        sticky: false,
         swipeable: false
       }
     }
@@ -153,7 +141,6 @@ export default {
     // 绑定事件处理
     handlers (bindBool) {
       const { events } = this
-      const sticky = this.sticky && bindBool
       const swipeable = this.swipeable && bindBool
 
       // 监听window跳转事件
@@ -161,16 +148,6 @@ export default {
         events.resize = bindBool // eslint-disable-line
         const action = bindBool ? on : off
         action(window, 'resize', this.setLine, true) // eslint-disable-line
-      }
-
-      // 监听滑动事件
-
-      if (events.sticky !== strict) {
-        events.sticky = strict
-        this.scrollEl = this.scrollEl || scrollUtils.getScrollEventTarget(this.$el) // eslint-disable-line
-        const action = sticky ? on : off
-        action(this.scrollEl, 'scroll', this.onScroll, true) // eslint-disable-line
-        this.onScroll()
       }
 
       // 监听滑touch事件
@@ -243,19 +220,6 @@ export default {
           transitionDuration: `${this.duration}s`
         }
       })
-    },
-    // adjust tab position
-    onScroll () {
-      const scrollTop = scrollUtils.getScrollTop(window)
-      const elTopToPageTop = scrollUtils.getElementTop(this.$el)
-      const elBottomToPageTop = elTopToPageTop + this.$el.offsetHeight - this.$refs.wrap.offsetHeight
-      if (scrollTop > elBottomToPageTop) {
-        this.position = 'content-bottom'
-      } else if (scrollTop > elTopToPageTop) {
-        this.position = 'page-top'
-      } else {
-        this.position = 'content-top'
-      }
     },
     // scroll active tab into view
     scrollIntoView (immediate) {

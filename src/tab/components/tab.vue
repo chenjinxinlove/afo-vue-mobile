@@ -46,9 +46,9 @@ export default {
     const index = this.parent.$slots.default.indexOf(this.$vnode)
     tabs.splice(index === -1 ? tabs.length : index, 0, this)
 
-    // if (this.$slots.title) {
-    //   this.parent.renderTitle(this.$refs.title, this.index)
-    // }
+    if (this.$slots.title) {
+      this.parent.renderTitle(this.$refs.title, this.index)
+    }
   },
   beforeDestroy () {
     this.parent.tabs.splice(this.index, 1)

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rate.vue demo snapshot 1`] = `
+<div>
+  <p>默认显示</p>
+  <afo-rate></afo-rate>
+  <div style="height: 50px;"></div>
+  <p>自定义显示</p>
+  <afo-rate size="25" count="6" color="#2ba" void-color="#ceefe8"></afo-rate>
+  <div style="height: 50px;"></div>
+  <p>禁操作</p>
+  <afo-rate disabled=""></afo-rate>
+</div>
+`;

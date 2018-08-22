@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag.vue demo snapshot 1`] = `
+<div>
+  <p>默认显示</p>
+  <div class="afo-tabs--line afo-tabs" sticky="">
+    <div class="afo-hairline--top-bottom afo-tabs__wrap afo-tabs__wrap--position">
+      <div class="afo-tabs__nav afo-tabs__nav--line">
+        <div class="afo-tabs__line"></div>
+      </div>
+    </div>
+    <div class="afo-tabs__content">
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <p>显示card类型</p>
+  <div class="afo-tabs--card afo-tabs">
+    <div class="afo-tabs__wrap afo-tabs__wrap--position">
+      <div class="afo-tabs__nav afo-tabs__nav--card">
+        <!---->
+      </div>
+    </div>
+    <div class="afo-tabs__content">
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <p>禁用类型</p>
+  <div class="afo-tabs--line afo-tabs">
+    <div class="afo-hairline--top-bottom afo-tabs__wrap afo-tabs__wrap--position">
+      <div class="afo-tabs__nav afo-tabs__nav--line">
+        <div class="afo-tabs__line"></div>
+      </div>
+    </div>
+    <div class="afo-tabs__content">
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <p>点击事件</p>
+  <div class="afo-tabs--line afo-tabs">
+    <div class="afo-hairline--top-bottom afo-tabs__wrap afo-tabs__wrap--position">
+      <div class="afo-tabs__nav afo-tabs__nav--line">
+        <div class="afo-tabs__line"></div>
+      </div>
+    </div>
+    <div class="afo-tabs__content">
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <p>横向滑动</p>
+  <div class="afo-tabs--line afo-tabs">
+    <div class="afo-hairline--top-bottom afo-tabs__wrap afo-tabs__wrap--position">
+      <div class="afo-tabs__nav afo-tabs__nav--line">
+        <div class="afo-tabs__line"></div>
+      </div>
+    </div>
+    <div class="afo-tabs__content">
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <p>滑动切换</p>
+  <div class="afo-tabs--line afo-tabs">
+    <div class="afo-hairline--top-bottom afo-tabs__wrap afo-tabs__wrap--position">
+      <div class="afo-tabs__nav afo-tabs__nav--line">
+        <div class="afo-tabs__line"></div>
+      </div>
+    </div>
+    <div class="afo-tabs__content">
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+      <div class="afo-tab__pane" style="display: none;">
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;

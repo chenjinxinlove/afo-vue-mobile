@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>默认显示</p>
-    <afo-tabs v-model="active">
+    <afo-tabs v-model="active" sticky>
       <afo-tab v-for="index in 4" :title="'选项 ' + index" :key="index">
         内容 {{ index }}
       </afo-tab>
@@ -33,6 +33,15 @@
     <p>滑动切换</p>
     <afo-tabs v-model="active" swipeable>
       <afo-tab v-for="index in 4" :title="'选项 ' + index" :key="index">
+        内容 {{ index }}
+      </afo-tab>
+    </afo-tabs>
+    <p>自定义</p>
+    <afo-tabs v-model="active">
+      <afo-tab v-for="index in 2" :key="index">
+        <div slot="title">
+          选项
+        </div>
         内容 {{ index }}
       </afo-tab>
     </afo-tabs>
