@@ -4,7 +4,7 @@
     <afo-pagination
       v-model="currentPage"
       :total="214"
-      :per-page="5"
+      :pageSize="5"
     />
     <p>简单模式</p>
     <afo-pagination
