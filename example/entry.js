@@ -9,6 +9,7 @@ import NoticeBar from '../src/notice-bar/demo'
 import TabBar from '../src/tabbar/demo/index'
 import Rate from '../src/rate/demo/'
 import Tab from '../src/tab/demo/'
+import Pagination from '../src/pagination/demo'
 
 export default {
   'button': Button,
@@ -21,5 +22,6 @@ export default {
   'notice-bar': NoticeBar,
   'tabbar': TabBar,
   'rate': Rate,
-  'tab': Tab
+  'tab': Tab,
+  'pagination': Pagination
 }

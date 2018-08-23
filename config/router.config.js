@@ -59,6 +59,9 @@ module.exports = {
             },
             {
               path: 'tab', title: 'Tab'
+            },
+            {
+              path: 'pagination', title: 'Paganation-分页'
             }
           ]
         }

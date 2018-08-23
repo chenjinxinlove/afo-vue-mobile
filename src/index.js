@@ -11,6 +11,7 @@ import TabBarItem from './tabbar-item'
 import Rate from './rate'
 import Tab from './tab'
 import Tabs from './tabs'
+import Pagination from './pagination'
 
 const version = '0.0.1'
 const components = [
@@ -26,7 +27,8 @@ const components = [
   TabBarItem,
   Rate,
   Tab,
-  Tabs
+  Tabs,
+  Pagination
 ]
 
 const install = Vue => {
@@ -55,7 +57,8 @@ const Afo = {
   TabBarItem,
   Rate,
   Tab,
-  Tabs
+  Tabs,
+  Pagination
 }
 
 export default Afo

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rate.vue demo snapshot 1`] = `
+<div>
+  <p>基础用法</p>
+  <ul class="afo-pagination" per-page="5">
+    <li class="afo-hairline afo-pagination__item afo-pagination__item--disabled afo-pagination__prev">
+      上一页
+    </li>
+    <li class="afo-hairline afo-pagination__item afo-pagination__page afo-pagination__item--active">
+      1
+    </li>
+    <li class="afo-hairline afo-pagination__item afo-pagination__page">
+      2
+    </li>
+    <li class="afo-hairline afo-pagination__item afo-pagination__page">
+      3
+    </li>
+    <li class="afo-hairline afo-pagination__item afo-pagination__page">
+      4
+    </li>
+    <li class="afo-hairline afo-pagination__item afo-pagination__page">
+      5
+    </li>
+    <!---->
+    <li class="afo-hairline afo-pagination__item afo-pagination__next">
+      下一页
+    </li>
+  </ul>
+  <p>简单模式</p>
+  <ul class="afo-pagination afo-pagination--simple">
+    <li class="afo-hairline afo-pagination__item afo-pagination__item--disabled afo-pagination__prev">
+      上一页
+    </li>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <li class="afo-pagination__page-desc">1/12</li>
+    <li class="afo-hairline afo-pagination__item afo-pagination__next">
+      下一页
+    </li>
+  </ul>
+  <p>显示省略号</p>
+  <ul class="afo-pagination">
+    <li class="afo-hairline afo-pagination__item afo-pagination__item--disabled afo-pagination__prev">
+      上一页
+    </li>
+    <li class="afo-hairline afo-pagination__item afo-pagination__page afo-pagination__item--active">
+      1
+    </li>
+    <li class="afo-hairline afo-pagination__item afo-pagination__page">
+      2
+    </li>
+    <li class="afo-hairline afo-pagination__item afo-pagination__page">
+      3
+    </li>
+    <li class="afo-hairline afo-pagination__item afo-pagination__page">
+      ...
+    </li>
+    <!---->
+    <li class="afo-hairline afo-pagination__item afo-pagination__next">
+      下一页
+    </li>
+  </ul>
+</div>
+`;

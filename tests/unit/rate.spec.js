@@ -6,8 +6,8 @@ import Rate from '../../src/rate'
 describe('Rate.vue', () => {
   // 测试是否可以被使用
   it('use', () => {
-    Vue.use(Tag)
-    expect(Vue.component(Tag.name)).toHaveProperty('name', 'VueComponent')
+    Vue.use(Rate)
+    expect(Vue.component(Rate.name)).toHaveProperty('name', 'VueComponent')
   })
   // 测试能正常显示内容
   it('props', () => {

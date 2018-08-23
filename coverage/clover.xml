@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1534932435553" clover="3.2.0">
-  <project timestamp="1534932435553" name="All files">
-    <metrics statements="233" coveredstatements="161" conditionals="101" coveredconditionals="58" methods="102" coveredmethods="70" elements="436" coveredelements="289" complexity="0" loc="233" ncloc="233" packages="27" files="31" classes="31">
+<coverage generated="1535001693426" clover="3.2.0">
+  <project timestamp="1535001693426" name="All files">
+    <metrics statements="273" coveredstatements="196" conditionals="122" coveredconditionals="73" methods="115" coveredmethods="84" elements="510" coveredelements="353" complexity="0" loc="273" ncloc="273" packages="30" files="34" classes="34">
       <package name="common.mixins">
         <metrics statements="20" coveredstatements="6" conditionals="6" coveredconditionals="1" methods="0" coveredmethods="0"/>
         <file name="find-partent.js" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/common/mixins/find-partent.js">
@@ -203,21 +203,79 @@
           <line num="120" count="0" type="stmt"/>
         </file>
       </package>
-      <package name="src.rate">
-        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <file name="index.js" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/rate/index.js">
-          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <package name="src.pagination">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/pagination/index.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
           <line num="3" count="1" type="stmt"/>
-          <line num="4" count="0" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.pagination.components">
+        <metrics statements="37" coveredstatements="31" conditionals="21" coveredconditionals="15" methods="11" coveredmethods="11"/>
+        <file name="pagination.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/pagination/components/pagination.vue">
+          <metrics statements="37" coveredstatements="31" conditionals="21" coveredconditionals="15" methods="11" coveredmethods="11"/>
+          <line num="37" count="3" type="stmt"/>
+          <line num="57" count="3" type="stmt"/>
+          <line num="60" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="61" count="3" type="stmt"/>
+          <line num="64" count="3" type="stmt"/>
+          <line num="70" count="3" type="stmt"/>
+          <line num="78" count="3" type="stmt"/>
+          <line num="86" count="1" type="stmt"/>
+          <line num="89" count="3" type="stmt"/>
+          <line num="90" count="3" type="stmt"/>
+          <line num="92" count="3" type="stmt"/>
+          <line num="93" count="3" type="stmt"/>
+          <line num="94" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="95" count="3" type="cond" truecount="1" falsecount="1"/>
+          <line num="96" count="3" type="stmt"/>
+          <line num="97" count="3" type="stmt"/>
+          <line num="99" count="3" type="cond" truecount="1" falsecount="1"/>
+          <line num="100" count="0" type="stmt"/>
+          <line num="101" count="0" type="stmt"/>
+          <line num="103" count="3" type="stmt"/>
+          <line num="104" count="13" type="stmt"/>
+          <line num="105" count="13" type="stmt"/>
+          <line num="107" count="3" type="cond" truecount="5" falsecount="0"/>
+          <line num="108" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="109" count="0" type="stmt"/>
+          <line num="110" count="0" type="stmt"/>
+          <line num="112" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="113" count="1" type="stmt"/>
+          <line num="114" count="1" type="stmt"/>
+          <line num="117" count="3" type="stmt"/>
+          <line num="123" count="3" type="cond" truecount="1" falsecount="1"/>
+          <line num="130" count="3" type="stmt"/>
+          <line num="131" count="3" type="stmt"/>
+          <line num="132" count="3" type="cond" truecount="1" falsecount="1"/>
+          <line num="133" count="0" type="stmt"/>
+          <line num="134" count="0" type="stmt"/>
+          <line num="139" count="14" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.pagination.demo">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/pagination/demo/index.vue">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="28" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.rate">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/rate/index.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
         </file>
       </package>
       <package name="src.rate.components">
         <metrics statements="6" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="3"/>
         <file name="rate.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/rate/components/rate.vue">
           <metrics statements="6" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="3"/>
-          <line num="51" count="1" type="stmt"/>
-          <line num="55" count="1" type="stmt"/>
-          <line num="56" count="6" type="stmt"/>
+          <line num="51" count="4" type="stmt"/>
+          <line num="55" count="4" type="stmt"/>
+          <line num="56" count="25" type="stmt"/>
           <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
           <line num="63" count="0" type="stmt"/>
           <line num="64" count="0" type="stmt"/>
