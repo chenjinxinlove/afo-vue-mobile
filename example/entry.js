@@ -10,6 +10,7 @@ import TabBar from '../src/tabbar/demo/index'
 import Rate from '../src/rate/demo/'
 import Tab from '../src/tab/demo/'
 import Pagination from '../src/pagination/demo'
+import Progress from '../src/progress/demo'
 
 export default {
   'button': Button,
@@ -23,5 +24,6 @@ export default {
   'tabbar': TabBar,
   'rate': Rate,
   'tab': Tab,
-  'pagination': Pagination
+  'pagination': Pagination,
+  'progress': Progress
 }

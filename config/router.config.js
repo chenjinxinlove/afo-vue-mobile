@@ -62,6 +62,9 @@ module.exports = {
             },
             {
               path: 'pagination', title: 'Paganation-分页'
+            },
+            {
+              path: 'progress', title: 'Progress-进度条'
             }
           ]
         }

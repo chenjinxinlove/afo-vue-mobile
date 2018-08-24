@@ -12,6 +12,7 @@ import Rate from './rate'
 import Tab from './tab'
 import Tabs from './tabs'
 import Pagination from './pagination'
+import Progress from './progress'
 
 const version = '0.0.1'
 const components = [
@@ -28,7 +29,8 @@ const components = [
   Rate,
   Tab,
   Tabs,
-  Pagination
+  Pagination,
+  Progress
 ]
 
 const install = Vue => {
@@ -58,7 +60,8 @@ const Afo = {
   Rate,
   Tab,
   Tabs,
-  Pagination
+  Pagination,
+  Progress
 }
 
 export default Afo
