@@ -11,6 +11,7 @@ import Rate from '../src/rate/demo/'
 import Tab from '../src/tab/demo/'
 import Pagination from '../src/pagination/demo'
 import Progress from '../src/progress/demo'
+import Steps from '../src/steps/demo'
 
 export default {
   'button': Button,
@@ -25,5 +26,6 @@ export default {
   'rate': Rate,
   'tab': Tab,
   'pagination': Pagination,
-  'progress': Progress
+  'progress': Progress,
+  'steps': Steps
 }

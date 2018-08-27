@@ -9,6 +9,8 @@ import NoticeBar from './notice-bar'
 import TabBar from './tabbar'
 import TabBarItem from './tabbar-item'
 import Rate from './rate'
+import Step from './step'
+import Steps from './steps'
 import Tab from './tab'
 import Tabs from './tabs'
 import Pagination from './pagination'
@@ -30,7 +32,9 @@ const components = [
   Tab,
   Tabs,
   Pagination,
-  Progress
+  Progress,
+  Steps,
+  Step
 ]
 
 const install = Vue => {
@@ -61,7 +65,9 @@ const Afo = {
   Tab,
   Tabs,
   Pagination,
-  Progress
+  Progress,
+  Steps,
+  Step
 }
 
 export default Afo

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag.vue demo snapshot 1`] = `
+<div>
+  <div class="afo-steps afo-steps--horizontal">
+    <!---->
+    <div class="afo-steps__items afo-steps__items--alone">
+      <afo-step>买家下单</afo-step>
+      <afo-step>商家接单</afo-step>
+      <afo-step>买家提货</afo-step>
+      <afo-step>交易完成</afo-step>
+    </div>
+  </div>
+  <afo-button>下一步</afo-button>
+  <div class="afo-steps afo-steps--vertical">
+    <!---->
+    <div class="afo-steps__items afo-steps__items--alone">
+      <afo-step>
+        <h3>【城市】物流状态1</h3>
+        <p>2016-07-12 12:40</p>
+      </afo-step>
+      <afo-step>
+        <h3>【城市】物流状态</h3>
+        <p>2016-07-11 10:00</p>
+      </afo-step>
+      <afo-step>
+        <h3>快件已发货</h3>
+        <p>2016-07-10 09:30</p>
+      </afo-step>
+    </div>
+  </div>
+</div>
+`;

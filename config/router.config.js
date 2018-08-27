@@ -65,6 +65,9 @@ module.exports = {
             },
             {
               path: 'progress', title: 'Progress-进度条'
+            },
+            {
+              path: 'steps', title: 'Steps-分步骤'
             }
           ]
         }

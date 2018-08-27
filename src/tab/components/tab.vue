@@ -30,11 +30,11 @@ export default {
   },
   watch: {
     // 监听active的变化，来显示展示content
-    'parent.curActive'() {
+    'parent.curActive' () {
       this.inited = this.inited || this.isSelected
     },
 
-    title() {
+    title () {
       this.parent.setLine()
     }
   },

@@ -1,20 +1,38 @@
 <template>
-  
+   <div :class="itemCls">
+    <div class="afo-step__title" :style="titleStyle">
+      <slot />
+    </div>
+    <div class="afo-step__circle-container">
+      <i class="afo-step__circle" v-if="status !== 'process'" />
+      <afo-icon v-else type="right" size="12px" :style="{ color: $parent.activeColor }" />
+    </div>
+    <div class="afo-step__line" />
+  </div>
 </template>
 <script>
 export default {
   name: 'afo-step',
-  beforeCreate() {
+  beforeCreate () {
     this.$parent.steps.push(this)
   },
   computed: {
     status () {
-      const index = this.$parent.steps.indexOf(index)
+      const index = this.$parent.steps.indexOf(this)
       const active = this.$parent.active
       if (index < active) {
         return 'finish'
       } else if (index === active) {
         return 'process'
+      }
+    },
+    itemCls () {
+      return {
+        'afo-step': true,
+        'afo-hairline': this.$parent.direction === 'vertical',
+        [`afo-step--${this.$parent.direction}`]: true,
+        [`afo-step--${this.status}`]: true
+
       }
     },
     titleStyle () {
@@ -26,11 +44,12 @@ export default {
 }
 </script>
 <style lang="stylus">
-.afo-step {
+@require "../../common/stylus/variable.styl"
+.afo-step
   flex: 1
   font-size: 14px
   position: relative
-  color: $gray-dark
+  color: $color-text-caption
 
   &--horizontal
     float: left
@@ -58,9 +77,8 @@ export default {
       top: 28px
       left: -8px
       padding: 0 8px
-      background-color: $white
+      background-color: $fill-base
       z-index: 1
-    }
 
     .afo-step__title
       font-size: 12px
@@ -74,14 +92,14 @@ export default {
       top: 30px
       width: 100%
       height: 1px
-      background-color: $border-color
+      background-color: $border-color-base
 
     &.afo-step--finish
       color: $text-color
 
       .afo-step__circle,
       .afo-step__line
-        background-color: $green
+        background-color: $brand-primary
     &.afo-step--process
       color: $text-color
 
@@ -89,7 +107,7 @@ export default {
         top: 24px
       .afo-icon
         font-size: 12px
-        color: $green
+        color: $brand-primary
         display: block
   .afo-step__circle
     display: block
@@ -112,14 +130,14 @@ export default {
         position: absolute
         width: 1px
         height: 20px
-        background-color: $white
+        background-color: $fill-base
         top: 0
         left: -15px
         z-index: 1
     .afo-step__circle-container > i
       position: absolute
       z-index: 2
-    .afo-icon-checked
+    .afo-icon-right
       top: 12px
       left: -20px
       line-height: 1
@@ -133,5 +151,5 @@ export default {
       left: -15px
       width: 1px
       height: 100%
-      background-color: $border-color
+      background-color: $border-color-base
 </style>
