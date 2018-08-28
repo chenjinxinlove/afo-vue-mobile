@@ -68,6 +68,9 @@ module.exports = {
             },
             {
               path: 'steps', title: 'Steps-分步骤'
+            },
+            {
+              path: 'slider', title: 'Slider-滑块'
             }
           ]
         }
