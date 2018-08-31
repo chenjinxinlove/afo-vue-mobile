@@ -13,6 +13,7 @@ import Pagination from '../src/pagination/demo'
 import Progress from '../src/progress/demo'
 import Steps from '../src/steps/demo'
 import Slider from '../src/slider/demo'
+import Collapse from '../src/collapse/demo'
 
 export default {
   'button': Button,
@@ -29,5 +30,6 @@ export default {
   'pagination': Pagination,
   'progress': Progress,
   'steps': Steps,
-  'slider': Slider
+  'slider': Slider,
+  'collapse': Collapse
 }

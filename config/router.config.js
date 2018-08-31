@@ -71,6 +71,9 @@ module.exports = {
             },
             {
               path: 'slider', title: 'Slider-滑块'
+            },
+            {
+              path: 'collapse', title: 'Collapse-折叠面板'
             }
           ]
         }
