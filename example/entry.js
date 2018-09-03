@@ -12,6 +12,8 @@ import Tab from '../src/tab/demo/'
 import Pagination from '../src/pagination/demo'
 import Progress from '../src/progress/demo'
 import Steps from '../src/steps/demo'
+import Slider from '../src/slider/demo'
+import Collapse from '../src/collapse/demo'
 
 export default {
   'button': Button,
@@ -27,5 +29,7 @@ export default {
   'tab': Tab,
   'pagination': Pagination,
   'progress': Progress,
-  'steps': Steps
+  'steps': Steps,
+  'slider': Slider,
+  'collapse': Collapse
 }

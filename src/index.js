@@ -15,6 +15,9 @@ import Tab from './tab'
 import Tabs from './tabs'
 import Pagination from './pagination'
 import Progress from './progress'
+import Slider from './slider'
+import Collapse from './collapse'
+import CollapseItem from './collapse-item'
 
 const version = '0.0.1'
 const components = [
@@ -34,7 +37,10 @@ const components = [
   Pagination,
   Progress,
   Steps,
-  Step
+  Step,
+  Slider,
+  Collapse,
+  CollapseItem
 ]
 
 const install = Vue => {
@@ -67,7 +73,10 @@ const Afo = {
   Pagination,
   Progress,
   Steps,
-  Step
+  Step,
+  Slider,
+  Collapse,
+  CollapseItem
 }
 
 export default Afo
