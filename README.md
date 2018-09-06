@@ -1,5 +1,5 @@
 # afo-vue-mobile
-
+all form one 是一套vue、react的移动端和pc端ui框架
 ## Project setup
 ```
 yarn install
