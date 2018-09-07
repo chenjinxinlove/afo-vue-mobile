@@ -154,7 +154,7 @@ export default {
 .afo-collapse-item
   &__title
     .afo-cell__right-icon::before
-      transition .3s;
+      transition .3s
       transform rotate(90deg)
     &::after
       visibility hidden

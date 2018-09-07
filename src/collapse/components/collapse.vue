@@ -22,6 +22,7 @@ export default {
           ? this.value.concat(name)
           : this.value.filter(activeName => activeName !== name)
       }
+      console.log(name, this.value, expanded)
       this.$emit('onChange', name)
       this.$emit('input', name)
     }
