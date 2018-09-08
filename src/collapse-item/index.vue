@@ -150,7 +150,7 @@ export default {
     &--up::before
       transform rotate(-90deg)
     &--down::before
-      transform rotate(90deg)  
+      transform rotate(90deg)
 .afo-collapse-item
   &__title
     .afo-cell__right-icon::before
