@@ -18,6 +18,8 @@ import Progress from './progress'
 import Slider from './slider'
 import Collapse from './collapse'
 import CollapseItem from './collapse-item'
+import RadioGroup from './radio-group'
+import Radio from './radio'
 
 const version = '0.0.1'
 const components = [
@@ -40,7 +42,9 @@ const components = [
   Step,
   Slider,
   Collapse,
-  CollapseItem
+  CollapseItem,
+  RadioGroup,
+  Radio
 ]
 
 const install = Vue => {

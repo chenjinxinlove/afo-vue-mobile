@@ -14,6 +14,7 @@ import Progress from '../src/progress/demo'
 import Steps from '../src/steps/demo'
 import Slider from '../src/slider/demo'
 import Collapse from '../src/collapse/demo'
+import Radio from '../src/radio/demo'
 
 export default {
   'button': Button,
@@ -31,5 +32,6 @@ export default {
   'progress': Progress,
   'steps': Steps,
   'slider': Slider,
-  'collapse': Collapse
+  'collapse': Collapse,
+  'radio': Radio
 }

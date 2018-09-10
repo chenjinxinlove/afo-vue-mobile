@@ -74,6 +74,9 @@ module.exports = {
             },
             {
               path: 'collapse', title: 'Collapse-折叠面板'
+            },
+            {
+              path: 'radio', title: 'radio-单选框'
             }
           ]
         }
