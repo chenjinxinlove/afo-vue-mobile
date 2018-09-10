@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rate.vue demo snapshot 1`] = `
+<div>
+  <p>基础用法</p>
+  <afo-radio-group>
+    <div class="afo-radio"><span class="afo-radio__input"><input type="radio" class="afo-radio__control" value="1"> <afo-icon size="18px" type="round-border"></afo-icon></span> <span class="afo-radio__label afo-radio__label--false">单选框 1</span></div>
+    <div class="afo-radio"><span class="afo-radio__input"><input type="radio" class="afo-radio__control" value="2"> <afo-icon size="18px" type="round-border"></afo-icon></span> <span class="afo-radio__label afo-radio__label--false">单选框 2</span></div>
+  </afo-radio-group>
+  <div style="height: 20px;"></div>
+  <p>禁用状态</p>
+  <afo-radio-group disabled="">
+    <div class="afo-radio"><span class="afo-radio__input"><input type="radio" class="afo-radio__control" value="1"> <afo-icon size="18px" type="round-border"></afo-icon></span> <span class="afo-radio__label afo-radio__label--false">单选框 1</span></div>
+    <div class="afo-radio"><span class="afo-radio__input"><input type="radio" class="afo-radio__control" value="2"> <afo-icon size="18px" type="round-border"></afo-icon></span> <span class="afo-radio__label afo-radio__label--false">单选框 2</span></div>
+  </afo-radio-group>
+</div>
+`;
