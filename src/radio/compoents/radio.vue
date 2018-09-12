@@ -20,7 +20,7 @@ export default {
     value: null,
     disabled: Boolean,
     labelDisabled: Boolean,
-    labelPosition: Boolean
+    labelPosition: String
   },
   computed: {
     radioCLs () {

@@ -15,6 +15,7 @@ import Steps from '../src/steps/demo'
 import Slider from '../src/slider/demo'
 import Collapse from '../src/collapse/demo'
 import Radio from '../src/radio/demo'
+import Switch from '../src/switch/demo'
 
 export default {
   'button': Button,
@@ -33,5 +34,6 @@ export default {
   'steps': Steps,
   'slider': Slider,
   'collapse': Collapse,
-  'radio': Radio
+  'radio': Radio,
+  'switch': Switch
 }

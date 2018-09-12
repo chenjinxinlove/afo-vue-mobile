@@ -20,6 +20,7 @@ import Collapse from './collapse'
 import CollapseItem from './collapse-item'
 import RadioGroup from './radio-group'
 import Radio from './radio'
+import Switch from './switch'
 
 const version = '0.0.1'
 const components = [
@@ -44,7 +45,8 @@ const components = [
   Collapse,
   CollapseItem,
   RadioGroup,
-  Radio
+  Radio,
+  Switch
 ]
 
 const install = Vue => {
@@ -80,7 +82,10 @@ const Afo = {
   Step,
   Slider,
   Collapse,
-  CollapseItem
+  CollapseItem,
+  RadioGroup,
+  Radio,
+  Switch
 }
 
 export default Afo
