@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch.vue demo snapshot 1`] = `
+<div>
+  <p>基础用法</p>
+  <div class="afo-switch">
+    <input type="checkbox" class="afo-switch__input">
+    <i class="afo-switch__ui"></i> <span class="afo-switch__label"></span></div>
+  <div style="height: 20px;"></div>
+  <p>禁用状态</p>
+  <div class="afo-switch">
+    <input type="checkbox" disabled="disabled" class="afo-switch__input">
+    <i class="afo-switch__ui"></i> <span class="afo-switch__label"></span></div>
+</div>
+`;
