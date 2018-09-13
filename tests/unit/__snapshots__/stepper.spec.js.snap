@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rate.vue demo snapshot 1`] = `
+<div>
+  <p>基础用法</p>
+  <div class="afo-stepper">
+    <button class="afo-stepper__minus afo-stepper__minus--disabled"></button>
+    <input type="number" class="afo-stepper__input">
+    <button class="afo-stepper__plus"></button>
+  </div>
+  <div style="height: 20px;"></div>
+  <p>禁用状态</p>
+  <div class="afo-stepper">
+    <button class="afo-stepper__minus afo-stepper__minus--disabled"></button>
+    <input type="number" disabled="disabled" class="afo-stepper__input">
+    <button class="afo-stepper__plus afo-stepper__plus--disabled"></button>
+  </div>
+  <div style="height: 20px;"></div>
+  <p>高级用法</p>
+  <div class="afo-stepper">
+    <button class="afo-stepper__minus"></button>
+    <input type="number" class="afo-stepper__input">
+    <button class="afo-stepper__plus"></button>
+  </div>
+</div>
+`;
