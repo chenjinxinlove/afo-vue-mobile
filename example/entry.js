@@ -16,6 +16,7 @@ import Slider from '../src/slider/demo'
 import Collapse from '../src/collapse/demo'
 import Radio from '../src/radio/demo'
 import Switch from '../src/switch/demo'
+import Stepper from '../src/stepper/demo'
 
 export default {
   'button': Button,
@@ -35,5 +36,6 @@ export default {
   'slider': Slider,
   'collapse': Collapse,
   'radio': Radio,
-  'switch': Switch
+  'switch': Switch,
+  'stepper': Stepper
 }

@@ -80,6 +80,9 @@ module.exports = {
             },
             {
               path: 'switch', title: 'Switch-滑动开关'
+            },
+            {
+              path: 'stepper', title: 'Stepper-计步器'
             }
           ]
         }
