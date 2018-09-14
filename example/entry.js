@@ -17,6 +17,7 @@ import Collapse from '../src/collapse/demo'
 import Radio from '../src/radio/demo'
 import Switch from '../src/switch/demo'
 import Stepper from '../src/stepper/demo'
+import Textarea from '../src/textarea/demo'
 
 export default {
   'button': Button,
@@ -37,5 +38,6 @@ export default {
   'collapse': Collapse,
   'radio': Radio,
   'switch': Switch,
-  'stepper': Stepper
+  'stepper': Stepper,
+  'textarea': Textarea
 }

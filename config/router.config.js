@@ -83,6 +83,9 @@ module.exports = {
             },
             {
               path: 'stepper', title: 'Stepper-计步器'
+            },
+            {
+              path: 'textarea', title: 'Textarea-输入框'
             }
           ]
         }
