@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1536824547074" clover="3.2.0">
-  <project timestamp="1536824547074" name="All files">
-    <metrics statements="419" coveredstatements="276" conditionals="200" coveredconditionals="102" methods="184" coveredmethods="130" elements="803" coveredelements="508" complexity="0" loc="419" ncloc="419" packages="49" files="54" classes="54">
+<coverage generated="1536913629726" clover="3.2.0">
+  <project timestamp="1536913629726" name="All files">
+    <metrics statements="443" coveredstatements="288" conditionals="212" coveredconditionals="105" methods="194" coveredmethods="136" elements="849" coveredelements="529" complexity="0" loc="443" ncloc="443" packages="52" files="57" classes="57">
       <package name="common.mixins">
         <metrics statements="20" coveredstatements="7" conditionals="6" coveredconditionals="2" methods="0" coveredmethods="0"/>
         <file name="find-partent.js" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/common/mixins/find-partent.js">
@@ -728,6 +728,48 @@
           <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
           <line num="27" count="11" type="stmt"/>
           <line num="43" count="11" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+      <package name="src.textarea">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/textarea/index.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.textarea.components">
+        <metrics statements="21" coveredstatements="9" conditionals="12" coveredconditionals="3" methods="8" coveredmethods="4"/>
+        <file name="textarea.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/textarea/components/textarea.vue">
+          <metrics statements="21" coveredstatements="9" conditionals="12" coveredconditionals="3" methods="8" coveredmethods="4"/>
+          <line num="21" count="3" type="stmt"/>
+          <line num="60" count="3" type="stmt"/>
+          <line num="61" count="3" type="cond" truecount="1" falsecount="1"/>
+          <line num="62" count="3" type="stmt"/>
+          <line num="64" count="3" type="stmt"/>
+          <line num="70" count="3" type="stmt"/>
+          <line num="73" count="3" type="stmt"/>
+          <line num="74" count="3" type="cond" truecount="2" falsecount="2"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="77" count="3" type="stmt"/>
+          <line num="82" count="0" type="stmt"/>
+          <line num="85" count="0" type="stmt"/>
+          <line num="86" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="87" count="0" type="stmt"/>
+          <line num="93" count="0" type="stmt"/>
+          <line num="94" count="0" type="stmt"/>
+          <line num="95" count="0" type="stmt"/>
+          <line num="98" count="0" type="stmt"/>
+          <line num="99" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="100" count="0" type="stmt"/>
+          <line num="102" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.textarea.demo">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.vue" path="/Users/chenjinxin/chenjinxin/ui/afo-vue-mobile/src/textarea/demo/index.vue">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="23" count="1" type="stmt"/>
         </file>
       </package>
     </metrics>
