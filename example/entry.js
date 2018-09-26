@@ -18,6 +18,7 @@ import Radio from '../src/radio/demo'
 import Switch from '../src/switch/demo'
 import Stepper from '../src/stepper/demo'
 import Textarea from '../src/textarea/demo'
+import Input from '../src/input/demo'
 
 export default {
   'button': Button,
@@ -39,5 +40,6 @@ export default {
   'radio': Radio,
   'switch': Switch,
   'stepper': Stepper,
-  'textarea': Textarea
+  'textarea': Textarea,
+  'input': Input
 }

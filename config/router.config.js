@@ -86,6 +86,9 @@ module.exports = {
             },
             {
               path: 'textarea', title: 'Textarea-输入框'
+            },
+            {
+              path: 'input', title: 'Input-输入框'
             }
           ]
         }

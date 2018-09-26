@@ -23,6 +23,7 @@ import Radio from './radio'
 import Switch from './switch'
 import Stepper from './stepper'
 import Textarea from './textarea'
+import Input from './input'
 
 const version = '0.0.1'
 const components = [
@@ -50,7 +51,8 @@ const components = [
   Radio,
   Switch,
   Stepper,
-  Textarea
+  Textarea,
+  Input
 ]
 
 const install = Vue => {
@@ -91,7 +93,8 @@ const Afo = {
   Radio,
   Switch,
   Stepper,
-  Textarea
+  Textarea,
+  Input
 }
 
 export default Afo
