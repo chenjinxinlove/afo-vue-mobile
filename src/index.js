@@ -96,7 +96,8 @@ const Afo = {
   Switch,
   Stepper,
   Textarea,
-  Input
+  Input,
+  Popup
 }
 
 export default Afo

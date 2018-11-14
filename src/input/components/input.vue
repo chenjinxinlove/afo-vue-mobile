@@ -84,65 +84,65 @@ export default {
     }
   },
   computed: {
-    _type() {
+    _type () {
       const type = this.type
       if (type === 'password' && this.eye && this.pwdVisible) {
         return 'text'
       }
       return type
     },
-    _showClear() {
+    _showClear () {
       return this.clearable && this.inputValue && !this.readonly && !this.disabled
     },
-    _showPwdEye() {
+    _showPwdEye () {
       return this.type === 'password' && this.eye && !this.disabled
     },
-    pwdVisible() {
+    pwdVisible () {
       const eye = this.formatedEye
       return eye.reverse ? !eye.open : eye.open
     },
-    eyeClass() {
+    eyeClass () {
       return this.formatedEye.open ? 'cubeic-eye-visible' : 'cubeic-eye-invisible'
     }
   },
   watch: {
-    value(newValue) {
+    value (newValue) {
       this.inputValue = newValue
     },
-    inputValue(newValue) {
+    inputValue (newValue) {
       this.$emit(input, newValue)
     },
     eye: {
-      handler() {
+      handler () {
         this.formateEye()
       },
       immediate: true
     }
   },
   methods: {
-    changeHander(e) {
+    changeHander (e) {
       this.$emit(change, e)
     },
-    formateEye() {
+    formateEye () {
       if (typeof this.eye === 'boolean') {
         this.formatedEye.open = this.eye
       } else {
         Object.assign(this.formatedEye, this.eye)
       }
     },
-    handleFocus(e) {
+    handleFocus (e) {
       this.$emit(focus, e)
       this.isFocus = true
     },
-    handleBlur(e) {
+    handleBlur (e) {
       this.$emit(blur, e)
       this.isFocus = false
     },
-    handleClear(e) {
+    handleClear (e) {
       this.inputValue = ''
       this.$refs.input.focus()
     },
-    handlePwdEye() {
+    handlePwdEye () {
       this.formatedEye.open = !this.formatedEye.open
     }
   }

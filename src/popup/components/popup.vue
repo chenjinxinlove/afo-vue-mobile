@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Popup from '../../../common//mixins/popup';
+import Popup from '../../../common//mixins/popup'
 export default {
   name: 'afo-popup',
   mixins: [Popup],
@@ -27,8 +27,11 @@ export default {
     }
   },
   computed: {
-    currentTransiton() {
-      return this.transition || (this.position === ''? 'afo-fade': `popup-slide-${this.position}`);
+    popupCls () {
+      return `afo-popup afo-popup--${this.position}`
+    },
+    currentTransiton () {
+      return this.transition || (this.position === '' ? 'afo-fade' : `popup-slide-${this.position}`)
     }
   }
 }

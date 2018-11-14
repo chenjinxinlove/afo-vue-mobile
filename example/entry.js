@@ -19,6 +19,7 @@ import Switch from '../src/switch/demo'
 import Stepper from '../src/stepper/demo'
 import Textarea from '../src/textarea/demo'
 import Input from '../src/input/demo'
+import Popup from '../src/popup/demo'
 
 export default {
   'button': Button,
@@ -41,5 +42,6 @@ export default {
   'switch': Switch,
   'stepper': Stepper,
   'textarea': Textarea,
-  'input': Input
+  'input': Input,
+  'popup': Popup
 }

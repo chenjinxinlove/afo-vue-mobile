@@ -89,6 +89,9 @@ module.exports = {
             },
             {
               path: 'input', title: 'Input-输入框'
+            },
+            {
+              path: 'popup', title: 'Popup-弹出层'
             }
           ]
         }

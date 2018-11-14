@@ -7,7 +7,7 @@
 <script>
 export default {
   name: 'InputDemo',
-  data() {
+  data () {
     return {
       value: 'dddd'
     }
