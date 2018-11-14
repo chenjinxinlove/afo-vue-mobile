@@ -24,6 +24,7 @@ import Switch from './switch'
 import Stepper from './stepper'
 import Textarea from './textarea'
 import Input from './input'
+import Popup from './popup'
 
 const version = '0.0.1'
 const components = [
@@ -52,7 +53,8 @@ const components = [
   Switch,
   Stepper,
   Textarea,
-  Input
+  Input,
+  Popup
 ]
 
 const install = Vue => {
