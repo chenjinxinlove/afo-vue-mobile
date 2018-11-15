@@ -25,6 +25,7 @@ import Stepper from './stepper'
 import Textarea from './textarea'
 import Input from './input'
 import Popup from './popup'
+import PullRefresh from './pull-refresh'
 
 const version = '0.0.1'
 const components = [
@@ -54,7 +55,8 @@ const components = [
   Stepper,
   Textarea,
   Input,
-  Popup
+  Popup,
+  PullRefresh
 ]
 
 const install = Vue => {

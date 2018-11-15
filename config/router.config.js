@@ -92,6 +92,9 @@ module.exports = {
             },
             {
               path: 'popup', title: 'Popup-弹出层'
+            },
+            {
+              path: 'pull-refresh', title: 'PullRefresh-下拉刷新'
             }
           ]
         }

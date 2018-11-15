@@ -20,6 +20,7 @@ import Stepper from '../src/stepper/demo'
 import Textarea from '../src/textarea/demo'
 import Input from '../src/input/demo'
 import Popup from '../src/popup/demo'
+import PullRefresh from '../src/pull-refresh/demo'
 
 export default {
   'button': Button,
@@ -43,5 +44,6 @@ export default {
   'stepper': Stepper,
   'textarea': Textarea,
   'input': Input,
-  'popup': Popup
+  'popup': Popup,
+  'pull-refresh': PullRefresh
 }
