@@ -5,15 +5,16 @@
       class="afo-pull-refresh__track"
       @touchstart="onTouchStart"
       @touchmove="onTouchMove"
+      @touchend="onTouchEnd"
       @touchcancel="onTouchEnd"
-    > 
+    >
       <div class="afo-pull-refresh__head">
         <slot v-if="status === 'normal'" name="normal" />
         <slot v-if="status === 'pulling'" name="pulling">
-          <span class="afo-pull-refresh__head">{{ pullingText }}</span>
+          <span class="afo-pull-refresh__text">{{ pullingText }}</span>
         </slot>
         <slot v-if="status === 'loosing'" name="loosing">
-          <span class="afo-pull-refresh__head">{{ loosingText }}</span>
+          <span class="afo-pull-refresh__text">{{ loosingText }}</span>
         </slot>
         <slot v-if="status === 'loading'" name="loading">
           <span class="afo-pull-refresh__loading">
@@ -27,7 +28,7 @@
   </div>
 </template>
 <script>
-import scrollUtils from '../../../common/utils/scroll';
+import scrollUtils from '../../../common/utils/scroll'
 export default {
   name: 'afo-pull-refresh',
   props: {
@@ -72,45 +73,45 @@ export default {
         transform: `translate3d(0, ${this.height}px, 0)`
       }
     },
-    untouchable() {
+    untouchable () {
       return this.status === 'loading' || this.disabled
     }
   },
-  mounted() {
+  mounted () {
     this.scrollEl = scrollUtils.getScrollEventTarget(this.$el)
   },
 
   watch: {
     value (val) {
-      this.duration = this.animationDuration;
-      this.getStatus(val ? this.headHeight : 0, val);
+      this.duration = this.animationDuration
+      this.getStatus(val ? this.headHeight : 0, val)
     }
   },
   methods: {
-    touchStart(event) {
-      this.direction = '';
-      this.deltaX = 0;
-      this.deltaY = 0;
-      this.offsetX = 0;
-      this.offsetY = 0;
-      this.startX = event.touches[0].clientX;
-      this.startY = event.touches[0].clientY;
+    touchStart (event) {
+      this.direction = ''
+      this.deltaX = 0
+      this.deltaY = 0
+      this.offsetX = 0
+      this.offsetY = 0
+      this.startX = event.touches[0].clientX
+      this.startY = event.touches[0].clientY
     },
 
-    touchMove(event) {
-      const touch = event.touches[0];
-      this.deltaX = touch.clientX - this.startX;
-      this.deltaY = touch.clientY - this.startY;
-      this.offsetX = Math.abs(this.deltaX);
-      this.offsetY = Math.abs(this.deltaY);
-      this.direction = this.offsetX > this.offsetY ? 'horizontal' : this.offsetX < this.offsetY ? 'vertical' : '';
+    touchMove (event) {
+      const touch = event.touches[0]
+      this.deltaX = touch.clientX - this.startX
+      this.deltaY = touch.clientY - this.startY
+      this.offsetX = Math.abs(this.deltaX)
+      this.offsetY = Math.abs(this.deltaY)
+      this.direction = this.offsetX > this.offsetY ? 'horizontal' : this.offsetX < this.offsetY ? 'vertical' : ''
     },
     onTouchStart (event) {
       if (this.untouchable) {
         return
       }
       if (this.getCeiling) {
-        this.duration = 0;
+        this.duration = 0
         this.touchStart(event)
       }
     },
@@ -127,17 +128,16 @@ export default {
       }
       if (this.ceiling && this.deltaY >= 0) {
         if (this.direction === 'vertical') {
-          this.getStatus(this.ease(this.deltaY));
-          event.preventDefault();
+          this.getStatus(this.ease(this.deltaY))
+          event.preventDefault()
         }
       }
     },
 
-    onTouchEnd() {
+    onTouchEnd () {
       if (this.untouchable) {
         return
       }
-
       if (this.ceiling && this.deltaY) {
         this.duration = this.animationDuration
         if (this.status === 'loosing') {
@@ -149,11 +149,11 @@ export default {
         }
       }
     },
-    getCeiling() {
-      this.ceiling = scrollUtils.getScrollTop(this.scrollEl) === 0;
-      return this.ceiling;
+    getCeiling () {
+      this.ceiling = scrollUtils.getScrollTop(this.scrollEl) === 0
+      return this.ceiling
     },
-    ease(height) {
+    ease (height) {
       const { headHeight } = this
       return height < headHeight
         ? height
@@ -162,7 +162,7 @@ export default {
           : Math.round(headHeight * 1.5 + (height - headHeight * 2) / 4)
     },
 
-    getStatus(height, isLoading) {
+    getStatus (height, isLoading) {
       this.height = height
 
       const status = isLoading

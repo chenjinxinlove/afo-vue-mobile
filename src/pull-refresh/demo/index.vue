@@ -1,12 +1,14 @@
 <template>
-  <afo-pull-refresh v-model="isLoading" @refresh="onRefresh">
-    <p>刷新次数: {{ count }}</p>
-  <afoa-pull-refresh>
+  <div>
+    <afo-pull-refresh v-model="isLoading" @refresh="onRefresh">
+      <p style="height: 400px">刷新次数: {{ count }}</p>
+    </afo-pull-refresh>
+  </div>
 </template>
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       count: 0,
       isLoading: false
@@ -14,9 +16,8 @@ export default {
   },
 
   methods: {
-    onRefresh() {
+    onRefresh () {
       setTimeout(() => {
-        this.alert('success')
         this.isLoading = false
         this.count++
       }, 500)
@@ -24,16 +25,3 @@ export default {
   }
 }
 </script>
-
-<style lang="postcss">
-  .afo-pull-refresh {
-    &,
-    &__track {
-      height: calc(100vh - 50px);
-    }
-  }
-
-  p {
-    margin: 10px 0 0 15px;
-  }
-</style>

@@ -99,7 +99,8 @@ const Afo = {
   Stepper,
   Textarea,
   Input,
-  Popup
+  Popup,
+  PullRefresh
 }
 
 export default Afo
