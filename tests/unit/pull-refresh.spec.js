@@ -1,4 +1,4 @@
-import { mount } from '@vue/test-utils'
+import { mount, trigger, triggerDrag } from './utils';
 import Demo from '../../src/pull-refresh/demo'
 import Vue from 'vue'
 import PullRefresh from '../../src/pull-refresh'
@@ -19,27 +19,37 @@ describe('PullRefresh.vue', () => {
     wrapper.vm.$on('input', value => {
       wrapper.vm.value = value
     })
-
-    const track = wrapper.find('.afo-pull-refresh__track')
+    const track = wrapper.find('.van-pull-refresh__track')
     // pulling
-    track.trigger('touchstart', 0, 0)
-    track.trigger('touchmove', 0, 10)
+    trigger(track, 'touchstart', 0, 0)
+    trigger(track, 'touchmove', 0, 10)
     expect(wrapper).toMatchSnapshot()
-
     // loosing
-    track.trigger('touchmove', 0, 100)
+    trigger(track, 'touchmove', 0, 100)
     expect(wrapper).toMatchSnapshot()
 
     // loading
-    track.trigger('touchend', 0, 100)
+    trigger(track, 'touchend', 0, 100)
     expect(wrapper).toMatchSnapshot()
-
+    // still loading
+    triggerDrag(track, 0, 100)
+    expect(wrapper).toMatchSnapshot()
     expect(wrapper.emitted('input')).toBeTruthy()
     expect(wrapper.emitted('refresh')).toBeTruthy()
-
     // end loading
     wrapper.vm.value = false
     expect(wrapper).toMatchSnapshot()
+  })
+
+  it('pull a short distance', () => {
+    const wrapper = mount(PullRefresh, {
+      propsData: {
+        value: false
+      }
+    })
+    const track = wrapper.find('.van-pull-refresh__track')
+    triggerDrag(track, 0, 10)
+    expect(wrapper.emitted('input')).toBeFalsy()
   })
 
   it('not in page top', () => {
@@ -48,11 +58,12 @@ describe('PullRefresh.vue', () => {
         value: false
       }
     })
-
     window.scrollTop = 100
     const track = wrapper.find('.van-pull-refresh__track')
+    // ignore touch event when not at page top
+    triggerDrag(track, 0, 100)
     window.scrollTop = 0
-    track.trigger(track, 'touchmove', 0, 100)
+    trigger(track, 'touchmove', 0, 100)
     expect(wrapper).toMatchSnapshot()
   })
 
