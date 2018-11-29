@@ -26,6 +26,7 @@ import Textarea from './textarea'
 import Input from './input'
 import Popup from './popup'
 import PullRefresh from './pull-refresh'
+import List from './list'
 
 const version = '0.0.1'
 const components = [
@@ -56,7 +57,8 @@ const components = [
   Textarea,
   Input,
   Popup,
-  PullRefresh
+  PullRefresh,
+  List
 ]
 
 const install = Vue => {
@@ -100,7 +102,8 @@ const Afo = {
   Textarea,
   Input,
   Popup,
-  PullRefresh
+  PullRefresh,
+  List
 }
 
 export default Afo

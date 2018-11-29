@@ -21,6 +21,7 @@ import Textarea from '../src/textarea/demo'
 import Input from '../src/input/demo'
 import Popup from '../src/popup/demo'
 import PullRefresh from '../src/pull-refresh/demo'
+import List from '../src/list/demo'
 
 export default {
   'button': Button,
@@ -45,5 +46,6 @@ export default {
   'textarea': Textarea,
   'input': Input,
   'popup': Popup,
-  'pull-refresh': PullRefresh
+  'pull-refresh': PullRefresh,
+  'list': List
 }

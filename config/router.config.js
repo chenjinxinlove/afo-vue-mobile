@@ -95,6 +95,9 @@ module.exports = {
             },
             {
               path: 'pull-refresh', title: 'PullRefresh-下拉刷新'
+            },
+            {
+              path: 'list', title: 'List-列表'
             }
           ]
         }
