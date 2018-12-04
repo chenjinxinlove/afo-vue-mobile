@@ -22,6 +22,7 @@ import Input from '../src/input/demo'
 import Popup from '../src/popup/demo'
 import PullRefresh from '../src/pull-refresh/demo'
 import List from '../src/list/demo'
+import Toast from '../src/toast/demo'
 
 export default {
   'button': Button,
@@ -47,5 +48,6 @@ export default {
   'input': Input,
   'popup': Popup,
   'pull-refresh': PullRefresh,
-  'list': List
+  'list': List,
+  'toast': Toast
 }

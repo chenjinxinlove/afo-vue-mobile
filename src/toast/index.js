@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import ToastConstructor from './components/toast.vue'
-
+import ToastConr from './components/toast.vue'
+const ToastConstructor = Vue.extend(ToastConr)
 let toastPool = []
 let getAnInstance = () => {
   if (toastPool.length > 0) {
@@ -53,6 +53,7 @@ let Toast = (options = {}) => {
   })
   return instance
 }
+Vue.prototype.$toast = Toast
 
 Toast.install = function (Vue) {
   Vue.component(Toast.name, Toast)

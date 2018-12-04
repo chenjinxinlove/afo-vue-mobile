@@ -24,26 +24,25 @@ export default {
     }
   },
 
-  data() {
+  data () {
     return {
       visible: false
     }
   },
-
   computed: {
-    customClass() {
-      var classes = [];
+    customClass () {
+      var classes = []
       switch (this.position) {
         case 'top':
           classes.push('is-placetop')
-          break;
+          break
         case 'bottom':
           classes.push('is-placebottom')
-          break;
+          break
         default:
           classes.push('is-placemiddle')
       }
-      classes.push(this.className);
+      classes.push(this.className)
 
       return classes.join(' ')
     }
@@ -69,18 +68,18 @@ export default {
     font-size 14px
     display block
     text-align center
-  .is-placetop
-    top 50px
-    left 50%
-    transform translate(-50%, 0)    
-  .is-placebottom
-    left: 50%
-    top: 50%
-    transform: translate(-50%, -50%)  
-  .is-placebottom
-    bottom 50px
-    left 50%
-    transform translate(-50%, 0)
-  .pop-enter, .pop-leave-active {
-    opacity: 0
+.is-placetop
+  top 50px
+  left 50%
+  transform translate(-50%, 0)
+.is-placemiddle
+  left 50%
+  top 50%
+  transform translate(-50%, -50%)
+.is-placebottom
+  bottom 50px
+  left 50%
+  transform translate(-50%, 0)
+.pop-enter, .pop-leave-active
+  opacity 0
 </style>

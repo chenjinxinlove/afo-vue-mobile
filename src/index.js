@@ -27,6 +27,7 @@ import Input from './input'
 import Popup from './popup'
 import PullRefresh from './pull-refresh'
 import List from './list'
+import Toast from './toast'
 
 const version = '0.0.1'
 const components = [
@@ -58,7 +59,8 @@ const components = [
   Input,
   Popup,
   PullRefresh,
-  List
+  List,
+  Toast
 ]
 
 const install = Vue => {
@@ -103,7 +105,8 @@ const Afo = {
   Input,
   Popup,
   PullRefresh,
-  List
+  List,
+  Toast
 }
 
 export default Afo

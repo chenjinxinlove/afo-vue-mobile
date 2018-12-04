@@ -98,6 +98,9 @@ module.exports = {
             },
             {
               path: 'list', title: 'List-列表'
+            },
+            {
+              path: 'toast', title: 'Toast-轻提示'
             }
           ]
         }
