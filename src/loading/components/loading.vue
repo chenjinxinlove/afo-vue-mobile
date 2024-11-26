@@ -29,6 +29,18 @@ export default {
           'black', 'white'
         ].indexOf(value) > -1
       }
+    },
+    sadIILink: {
+      type: String,
+      default: ''
+    },
+    happyIILink: {
+      type: String,
+      default: ''
+    },
+    text: {
+      type: String,
+      default: ''
     }
   },
   computed: {

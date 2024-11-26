@@ -49,6 +49,18 @@ export default {
     scrollable: {
       type: Boolean,
       default: true
+    },
+    speed: {
+      type: Number,
+      default: 50
+    },
+    loop: {
+      type: Boolean,
+      default: true
+    },
+    onClick: {
+      type: Function,
+      default: () => {}
     }
   },
   data () {
