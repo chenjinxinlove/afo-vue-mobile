@@ -32,11 +32,28 @@ function isAndroid () {
   return isServer ? false : /android/.test(navigator.userAgent.toLowerCase())
 }
 
+function isIOS () {
+  /* istanbul ignore next */
+  return isServer ? false : /ios|iphone|ipad|ipod/.test(navigator.userAgent.toLowerCase())
+}
+
+function isWeixin () {
+  /* istanbul ignore next */
+  return isServer ? false : /micromessenger/.test(navigator.userAgent.toLowerCase())
+}
+
+function isQQ () {
+  /* istanbul ignore next */
+  return isServer ? false : /qq/.test(navigator.userAgent.toLowerCase())
+}
 export {
   get,
   isObj,
   isDef,
   isServer,
   camelize,
-  isAndroid
+  isAndroid,
+  isIOS,
+  isWeixin,
+  isQQ
 }
