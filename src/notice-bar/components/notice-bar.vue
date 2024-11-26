@@ -34,22 +34,6 @@ export default {
       type: String,
       default: '#f60'
     },
-    background: {
-      type: String,
-      default: '#fff7cc'
-    },
-    fps: {
-      type: Number,
-      default: 50
-    },
-    delay: {
-      type: Number,
-      default: 1
-    },
-    scrollable: {
-      type: Boolean,
-      default: true
-    },
     speed: {
       type: Number,
       default: 50
